@@ -19,9 +19,9 @@
 <summary>View Contents</summary>
 
 ### [0. Responsive device mandatory](./0-responsive_device.png)
-*Go to https://dev-tools.hbtn.info/
+* Go to https://dev-tools.hbtn.info/
 
-*Take a screenshot of the website using the device toolbar Choose iPhone X and show the size in your screenshot
+* Take a screenshot of the website using the device toolbar Choose iPhone X and show the size in your screenshot
 
 </details>
 
