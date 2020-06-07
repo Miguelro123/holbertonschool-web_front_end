@@ -2,10 +2,14 @@
 
 This repository contains programs for the Web Development Front-End.
 
+---
+
 # Projects
 Projects | Description
 ----------- | -----------
 [Advanced HTML](./0x00-html_advanced) | Building a website with only HTML.
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
