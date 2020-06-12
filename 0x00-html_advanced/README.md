@@ -883,7 +883,7 @@ Using `30-styleguide.html`
  </code>
 ```
 
-    - create another `div`, in the new `div` add this paragraph of text with the correct HTML tag: `Curabitur sit amet turpis cursus massa mollis highlighted. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend highlighted mi consequat ut. Cras nec quam sed sapien ultricies highlighted ut sed metus.` Each occurrence of the word `highlighted should be highlighted.`
+   - create another `div`, in the new `div` add this paragraph of text with the correct HTML tag: `Curabitur sit amet turpis cursus massa mollis highlighted. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend highlighted mi consequat ut. Cras nec quam sed sapien ultricies highlighted ut sed metus.` Each occurrence of the word `highlighted should be highlighted.`
     
 **W3C does not need to pass**
 
@@ -1048,7 +1048,7 @@ Facebook icon
 </svg>
 ```
 
-  - replace the text `Twitter` with the SVG icon code and add width of `25px` and height of `25px` to the SVG tag:
+    - replace the text `Twitter` with the SVG icon code and add width of `25px` and height of `25px` to the SVG tag:
 
 ```
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -1059,7 +1059,7 @@ Twitter icon
 </svg>
 ```
 
-  - replace the text `Instagram` with the SVG icon code and add width of `25px` and height of `25px` to the SVG tag:
+    - replace the text `Instagram` with the SVG icon code and add width of `25px` and height of `25px` to the SVG tag:
 
 ```
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
