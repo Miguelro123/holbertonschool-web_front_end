@@ -171,88 +171,88 @@ What is the equivalent value of the hexadecimal background-color, in HSL?
 * Directory: 0x01-developer_tools
 * File: 8-hsl
 
-9. The max-width of the container mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [9. The max-width of the container](./9-max_width)
+
 Go to https://dev-tools.hbtn.info/
 
 What is the max-width for the first .container in the section “About”? (your browser width must be between 1250px and 1440px and with a zoom at 100%)
 
 (format of your answer should be max-width: <VALUE>;, example: max-width: 670px)
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 9-max_width
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 9-max_width
 
-10. Moving around mandatory
-Score: 50.00% (Checks completed: 100.00%)
+### [10. Moving around](./10-moved_around.png)
+
 Go to https://dev-tools.hbtn.info/
 
 Switch the section “About” and “Portfolio”
 
 Take a screenshot of it
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 10-moved_around.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 10-moved_around.png
 
-11. Coverage mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [11. Coverage](./11-coverage)
+
 Go to https://dev-tools.hbtn.info/
 
 How many bytes that freelancer.css covers?
 
 Answer file must contain the value in Byte (example: 6144 for 6KB)
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 11-coverage
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 11-coverage
 
-12. Emulate the print version of the webpage mandatory
-Score: 50.00% (Checks completed: 100.00%)
+### [12. Emulate the print version of the webpage](./12-print_version.png)
+
 Go to https://dev-tools.hbtn.info/
 
 Take a screenshot of the homepage, only emulation the CSS print version of the website.
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 12-print_version.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 12-print_version.png
 
-13. Using the console mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [13. Using the console](./13-logo_dollar0)
+
 Go to https://dev-tools.hbtn.info/
 
 Select the Avatar image in the header and type $0 in the console. Enter.
 
 What does it return?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 13-logo_dollar0
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 13-logo_dollar0
 
-14. Write code in the console mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [14. Write code in the console](./14-doc_title)
+
 Go to https://dev-tools.hbtn.info/
 
 Write in the console console.log(document.title), what is returned?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 14-doc_title
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 14-doc_title
 
-15. Holberton web framework mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [15. Holberton web framework](./15-hbtn_framework)
+
 Go to https://dev-tools.hbtn.info/
 
 Which front-end framework could we guess this page is using?
@@ -263,130 +263,131 @@ A. React JS
 B. Material Design
 C. Bootstrap
 D. Angular JS
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 15-hbtn_framework
+**Repo:**
 
-16. Homepage weight mandatory
-Score: 50.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 15-hbtn_framework
+
+### [16. Homepage weight](./16-weight.png)
+
 Go to https://dev-tools.hbtn.info/
 
 What is the total weight of the page (with all the elements)?
 
 Take a screenshot of it
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 16-weight.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 16-weight.png
 
-17. Number of requests mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [17. Number of requests](./17-requests.png)
+
 Go to https://dev-tools.hbtn.info/
 
 What is the number of requests done when accessing this page?
 
 Take a screenshot of it
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 17-requests.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 17-requests.png
 
-18. Number of CSS files mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [18. Number of CSS files](./18-css_loaded)
+
 Go to https://dev-tools.hbtn.info/
 
 How many CSS resources are loaded on this page?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 18-css_loaded
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 18-css_loaded
 
-19. Number of images mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [19. Number of images](./19-images_loaded)
+
 Go to https://dev-tools.hbtn.info/
 
 How many image resources are loaded on this page?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 19-images_loaded
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 19-images_loaded
 
-20. Favicon image type mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [20. Favicon image type](./20-favicon_type)
+
 Go to https://dev-tools.hbtn.info/
 
 What is the type value of the favicon image?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 20-favicon_type
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 20-favicon_type
 
-21. Font library mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [21. Font library](./21-hbtn_font_lib)
+
 Go to https://dev-tools.hbtn.info/
 
 Holberton School website uses a font library for their icons, which one is it?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 21-hbtn_font_lib
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 21-hbtn_font_lib
 
-22. XHR calls mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [22. XHR calls](./22-xhr_calls)
+
 Go to https://dev-tools.hbtn.info/
 
 What is the name of the resource that generates 1 XHR calls?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 22-xhr_calls
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 22-xhr_calls
 
-23. Audits panel mandatory
-Score: 90.00% (Checks completed: 100.00%)
+### [23. Audits panel](./23-performance_audit.png)
+
 Go to https://dev-tools.hbtn.info/
 
 What is the notation for Performance (desktop mode and no throlling)?
 
 Take a screenshot of it
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 23-performance_audit.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 23-performance_audit.png
 
-24. Static assets mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [24. Static assets](./24-static_assets_audit.png)
+
 Go to https://dev-tools.hbtn.info/
 
 How many static assets need a better cache policy?
 
 Take a screenshot of it
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 24-static_assets_audit.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 24-static_assets_audit.png
 
-25. Accessibility mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [25. Accessibility](./25-contrast_issue)
+
 Go to https://dev-tools.hbtn.info/
 
 When you run an accessibility audit, what is the contrast issue?
@@ -396,28 +397,29 @@ In your answer file only put the letter of the multiple choice answer from below
 A. Image elements do not have [alt] attributes
 B. Links do not have a discernible name
 C. Background and foreground colors do not have a sufficient contrast ratio.
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 25-contrast_issue
+**Repo:**
 
-26. No alt mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 25-contrast_issue
+
+### [26. No alt](./26-no_alt)
+
 Go to https://dev-tools.hbtn.info/
 
 Which classes are on the images that have no alt attribute?
 
 Your answer file must contains all classes, example: .my_class.my_second if 2 classes
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 26-no_alt
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 26-no_alt
 
-27. Best practices mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [27. Best practices](./27-missing_attr)
+
 Go to https://dev-tools.hbtn.info/
 
 Which attribute is missing on all the links with the target _blank?
@@ -428,28 +430,29 @@ A. rel="noopener"
 B. rel="noreferrer"
 C. A and B
 D. rel = "nofollow"
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 27-missing_attr
+**Repo:**
 
-28. SEO mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 27-missing_attr
+
+### [28. SEO](./28-unclear_desc.png)
+
 Go to https://dev-tools.hbtn.info/
 
 Which link has text that is not descriptive enough?
 
 Take a screenshot of it
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 28-unclear_desc.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 28-unclear_desc.png
 
-29. Sources mandatory
-Score: 50.00% (Checks completed: 100.00%)
+### [29. Sources](./29-how_many_colors.png)
+
 Go to https://dev-tools.hbtn.info/
 
 The sources panel allow you to edit files, add breakpoints to analyse your JavaScript code and create snippets.
@@ -458,79 +461,80 @@ Create a new snippet called allcolors.js
 Copy-paste the code on that page
 Run the code
 Take a screenshot of the result in your console
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 29-how_many_colors.png
+**Repo:**
 
-30. Block CSS files mandatory
-Score: 50.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 29-how_many_colors.png
+
+### [30. Block CSS files](./30-no_css.png)
+
 Go to https://dev-tools.hbtn.info/
 
 Block all CSS requests
 
 Take a screenshot of it
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 30-no_css.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 30-no_css.png
 
-31. Application panel mandatory
-Score: 65.00% (Checks completed: 100.00%)
+### [31. Application panel](./31-session_storage_key)
+
 Go to https://dev-tools.hbtn.info/
 
 The application panel gives you access to the storage (cookies, sessions, cache…) and some other options as Services Workers and more recently, notifications.
 
 What is the only key present in the session storage for this page?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 31-session_storage_key
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 31-session_storage_key
 
-32. Service workers mandatory
-Score: 65.00% (Checks completed: 100.00%)
+### [32. Service workers](./32-service_workers)
+
 Go to https://dev-tools.hbtn.info/
 
 Does this page have any service workers? Yes or No
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 32-service_workers
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 32-service_workers
 
-33. Security mandatory
-Score: 65.00% (Checks completed: 100.00%)
+### [33. Security](./33-ssl_cert)
+
 Go to https://dev-tools.hbtn.info/
 
 The security panel allows you to make sure HTTS is properly implement on a webpage.
 
 Which organization issued the SSL certificate for this page?
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 33-ssl_cert
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 33-ssl_cert
 
-34. Expiration date mandatory
-Score: 50.00% (Checks completed: 100.00%)
+### [34. Expiration date](./34-ssl_expiration.png)
+
 Go to https://dev-tools.hbtn.info/
 
 When does the SSL certificate expire?
 
 Take a screenshot of it
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x01-developer_tools
-File: 34-ssl_expiration.png
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x01-developer_tools
+* File: 34-ssl_expiration.png
 
 </details>
 
