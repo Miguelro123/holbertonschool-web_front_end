@@ -1048,7 +1048,7 @@ Facebook icon
 </svg>
 ```
 
-    - replace the text `Twitter` with the SVG icon code and add width of `25px` and height of `25px` to the SVG tag:
+   - replace the text `Twitter` with the SVG icon code and add width of `25px` and height of `25px` to the SVG tag:
 
 ```
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -1059,7 +1059,7 @@ Twitter icon
 </svg>
 ```
 
-    - replace the text `Instagram` with the SVG icon code and add width of `25px` and height of `25px` to the SVG tag:
+   - replace the text `Instagram` with the SVG icon code and add width of `25px` and height of `25px` to the SVG tag:
 
 ```
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
