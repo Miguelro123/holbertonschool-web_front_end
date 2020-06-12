@@ -372,291 +372,308 @@ Copy the content of `8-index.html` into `9-index.html`
 
 ### [10. Level 3 headings](./10-index.html)
 
-Copy the content of 9-index.html into 10-index.html
+Copy the content of `9-index.html` into `10-index.html`
 
-Services headings:
+**Services headings:**
 
-Inside the section containing the h2 heading Services, add these elements right after the h2:
-create a level 3 heading with text Design & Concept
-create a level 3 heading with text Digital Strategy
-create a level 3 heading with text Content Strategy
-create a level 3 heading with text UX Design
-create a level 3 heading with text Web Development
-create a level 3 heading with text Social Media
-Works headings:
+- Inside the section containing the `h2` heading `Services`, add these elements right after the `h2`:
+  - create a level 3 heading with text `Design & Concept`
+  - create a level 3 heading with text `Digital Strategy`
+  - create a level 3 heading with text `Content Strategy`
+  - create a level 3 heading with text `UX Design`
+  - create a level 3 heading with text `Web Development`
+  - create a level 3 heading with text `Social Media`
 
-Inside the section containing the h2 heading Works:
-in the first article, replace the text with a level 3 heading with text Interior Design
-in the second article, replace the text with a level 3 heading with text Web Development
-in the third article, replace the text with a level 3 heading with text Personal Brand
-About Us headings:
+**Works headings:**
 
-Inside the section containing the h2 heading About Us, after the h2 heading, create these elements in this order:
-a level 3 heading with text Who are we
-a level 3 heading with text Our culture
-a level 3 heading with text How we work
-Latest news headings:
+- Inside the section containing the `h2` heading `Works`:
+  - in the first `article`, replace the text with a level 3 heading with text `Interior Design`
+  - in the second `article`, replace the text with a level 3 heading with text `Web Development`
+  - in the third `article`, replace the text with a level 3 heading with text `Personal Brand`
 
-Inside the section containing the h2 heading Latest news:
-in the first article replace the text with a level 3 heading with text Hoc loco tenere se Triarius non potuit.
-in the second article replace the text with a level 3 heading with text Ut alios omittam, hunc appello, quem ille unum secutus est.
-in the third article replace the text with a level 3 heading with text Bestiarum vero nullum iudicium puto.
-W3C does not need to pass here
+**About Us headings:**
 
-Repo:
+- Inside the section containing the `h2` heading `About Us`, after the `h2` heading, create these elements in this order:
+  - a level 3 heading with text `Who are we`
+  - a level 3 heading with text `Our culture`
+  - a level 3 heading with text `How we work`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 10-index.html
+**Latest news headings:**
+
+- Inside the section containing the `h2` heading `Latest news`:
+  - in the first `article` replace the text with a level 3 heading with text `Hoc loco tenere se Triarius non potuit.`
+  - in the second `article` replace the text with a level 3 heading with text `Ut alios omittam, hunc appello, quem ille unum secutus est.`
+  - in the third `article` replace the text with a level 3 heading with text `Bestiarum vero nullum iudicium puto.`
+
+**W3C does not need to pass here**
+
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `10-index.html`
 
 ### [11. styleguide](./11-styleguide.html)
 
-Copy the content of 3-index.html into 11-styleguide.html
+Copy the content of `3-index.html` into `11-styleguide.html`
 
-change the title to Styleguide - Techium
-remove the text from header, main, and footer
-create a new <section> inside your main tag
-create a header in this section
-in the header add a level 2 heading with text Headings
-after the header:
-add a level 1 heading with text Heading level 1
-add a level 2 heading with text Heading level 2
-add a level 3 heading with text Heading level 3
-add a level 4 heading with text Heading level 4
-add a level 5 heading with text Heading level 5
-add a level 6 heading with text Heading level 6
-Repo:
+- change the title to `Styleguide - Techium`
+- remove the text from `header`, `main`, and `footer`
+- create a new `<section>` inside your `main` tag
+  - create a header in this section
+    - in the `header` add a level 2 heading with text `Headings`
+  - after the `header`:
+    - add a level 1 heading with text `Heading level 1`
+    - add a level 2 heading with text `Heading level 2`
+    - add a level 3 heading with text `Heading level 3`
+    - add a level 4 heading with text `Heading level 4`
+    - add a level 5 heading with text `Heading level 5`
+    - add a level 6 heading with text `Heading level 6`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 11-styleguide.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `11-styleguide.html`
 
 ### [12. Paragraphs](./12-index.html)
 
-Copy the content of 10-index.html into 12-index.html
+Copy the content of `10-index.html` into `12-index.html`
 
-About Us paragraphs:
+**About Us paragraphs:**
 
-in the About Us section
-after the first h3 (who are we) create a paragraph with the text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!
-after the second h3 create a paragraph with the text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!
-after the third h3 create a paragraph with the text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!
-Latest news paragraphs:
+- in the `About Us` section
+  - after the first `h3` (who are we) create a paragraph with the text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!`
+  - after the second `h3` create a paragraph with the text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!`
+  - after the third `h3` create a paragraph with the text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!`
 
-in the Latest news section
-in the first article
-create a paragraph with text Career before the heading
-create a paragraph with text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane? after the heading
-in the second article
-create a paragraph with text Digital Life before the heading
-create a paragraph with text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama? after the heading
-in the third article
-create a paragraph with text Social before the heading
-create a paragraph with text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non igitur bene. Quid enim est a Chrysippo praetermissum in Stoicis? Pugnant Stoici cum Peripateticis. Prioris generis est docilitas, memoria; Apparet statim, quae sint officia, quae actiones. after the heading
-Contact paragraph:
+**Latest news paragraphs:**
 
-in the Contact section after the heading
-create a paragraph with the text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?
-Additional paragraphs:
+- in the `Latest news` section
+  - in the first `article`
+    - create a paragraph with text `Career` before the heading
+    - create a paragraph with text `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?` after the heading
+  - in the second `article`
+    - create a paragraph with text `Digital Life` before the heading
+    - create a paragraph with text `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama?` after the heading
+  - in the third `article`
+    - create a paragraph with text `Social` before the heading
+    - create a paragraph with text `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non igitur bene. Quid enim est a Chrysippo praetermissum in Stoicis? Pugnant Stoici cum Peripateticis. Prioris generis est docilitas, memoria; Apparet statim, quae sint officia, quae actiones.` after the heading
 
-below the level 2 Services heading add a paragraph with text We work with you
-below the level 2 Works heading add a paragraph with text Take a look in our portfolio
-below the level 2 About Us heading add a paragraph with text Everything about us
-below the level 2 Testimonials heading add a paragraph with text We are more than a digital company
-below the level 2 Contact heading add a paragraph with text We like to know new people
-Does not need to pass W3C
+**Contact paragraph:**
 
-Repo:
+- in the `Contact` section after the heading
+  - create a paragraph with the text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 12-index.html
+**Additional paragraphs:**
+
+- below the level 2 `Services` heading add a paragraph with text `We work with you`
+- below the level 2 `Works` heading add a paragraph with text `Take a look in our portfolio`
+- below the level 2 `About Us` heading add a paragraph with text `Everything about us`
+- below the level 2 `Testimonials` heading add a paragraph with text `We are more than a digital company`
+- below the level 2 `Contact` heading add a paragraph with text `We like to know new people`
+
+**Does not need to pass W3C**
+
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `12-index.html`
 
 ### [13. styleguide paragraphs](./13-styleguide.html)
 
-Copy the contents of 11-styleguide.html into 13-styleguide.html
+Copy the contents of `11-styleguide.html` into `13-styleguide.html`
 
-After the existing section containing Headings, create a new section in main
-in this section create a header
-Inside the header, create a level 2 heading with text Paragraph
-after the header add a level 2 heading with text Heading with a subtitle
-after the level 2 heading, add a paragraph with text This is my subtitle
-after the last paragraph, add another paragraph with text: Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
-Repo:
+- After the existing section containing `Headings`, create a new `section` in `main`
+  - in this section create a `header`
+    - Inside the header, create a level 2 heading with text `Paragraph`
+  - after the `header` add a level 2 heading with text `Heading with a subtitle`
+  - after the level 2 heading, add a paragraph with text `This is my subtitle`
+  - after the last paragraph, add another paragraph with text: `Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 13-styleguide.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `13-styleguide.html`
 
 ### [14. Span](./14-index.html)
 
-Copy the contents of 12-index.html into 14-index.html
+Copy the contents of `12-index.html` into `14-index.html`
 
-Copy the contents of 12-index.html into 14-index.html
+In the very first `<header>`,
 
-In the very first <header>,
+- before the `nav`, create a `span` with the text `Techium`
 
-before the nav, create a span with the text Techium
-Does not need to pass W3C
+**Does not need to pass W3C**
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 14-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `14-index.html`
 
 ### [15. Div](./15-index.html)
 
-Copy the contents of 14-index.html into 15-index.html
+Copy the contents of `14-index.html` into `15-index.html`
 
-Wrap the contents of the header element with a div
-Wrap the contents of all section elements with a div
-Finally, wrap the contents of the <footer> tag with a div
-W3C does not need to pass
+- Wrap the contents of the `header` element with a `div`
+- Wrap the contents of all `section` elements with a `div`
+- Finally, wrap the contents of the `<footer>` tag with a `div`
 
-Repo:
+**W3C does not need to pass**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 15-index.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `15-index.html`
 
 ### [16. Structure your sections](./16-index.html)
 
-Copy the contents of 15-index.html into 16-index.html
+Copy the contents of `15-index.html` into `16-index.html`
 
-in the div in the Services section
-create a header tag that wraps the h2 and the p
-create a div sibling to the header that wraps the rest of the content
-in the div in the Works section
-create a header tag that wraps the h2 and the p
-create a div sibling to the header that wraps the rest of the content
-in the div in the About Us section
-create a header tag that wraps the h2 and the p
-create a div sibling to the header that wraps the rest of the content
-in the div in the Latest news section
-create a header tag that wraps the h2
-create a div sibling to the header that wraps the rest of the content
-in the div in the Testimonials section
-create a header tag that wraps the h2 and the p
-create a div sibling to the header that wraps the rest of the content
-in the div in the Contact section
-create a header tag that wraps the h2 and the first p
-create a div sibling to the header that wraps the rest of the content
-W3C does not need to pass
+- in the `div` in the Services `section`
+  - create a `header` tag that wraps the `h2` and the `p`
+  - create a `div` sibling to the `header` that wraps the rest of the content
+- in the `div` in the Works `section`
+  - create a `header` tag that wraps the `h2` and the `p`
+  - create a `div` sibling to the `header` that wraps the rest of the content
+- in the `div` in the About Us `section`
+  - create a `header` tag that wraps the `h2` and the `p`
+  - create a `div` sibling to the `header` that wraps the rest of the content
+- in the `div` in the Latest news `section`
+  - create a `header` tag that wraps the `h2`
+  - create a `div` sibling to the `header` that wraps the rest of the content
+- in the `div` in the Testimonials `section`
+  - create a `header` tag that wraps the `h2` and the `p`
+  - create a `div` sibling to the `header` that wraps the rest of the content
+- in the `div` in the Contact `section`
+  - create a `header` tag that wraps the `h2` and the first `p`
+  - create a `div` sibling to the `header` that wraps the rest of the content
 
-Repo:
+**W3C does not need to pass**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 16-index.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `16-index.html`
 
 ### [17. Comments](./17-index.html)
 
-Copy the content of 16-index.html into 17-index.html
+Copy the content of `16-index.html` into `17-index.html`
 
-before the header add a line break and a comment saying Header to help with scanning your code
-before the main add a line break and a comment saying Main to help with scanning your code
-before the footer add a line break and a comment saying Footer to help with scanning your code
-before the Hero section add a line break and a comment saying Hero section
-before the Services section add a line break and a comment saying Services section
-before the Works section add a line break and a comment saying Works section
-before the About Us section add a line break and a comment saying About Us section
-before the Latest news section add a line break and a comment saying Latest news section
-before the Testimonials section add a line break and a comment saying Testimonials section
-before the Contact section add a line break and a comment saying Contact section
-Does not need to pass W3C
+- before the `header` add a line break and a comment saying `Header` to help with scanning your code
+- before the `main` add a line break and a comment saying `Main` to help with scanning your code
+- before the `footer` add a line break and a comment saying `Footer` to help with scanning your code
+- before the `Hero section` add a line break and a comment saying `Hero section`
+- before the `Services section` add a line break and a comment saying `Services section`
+- before the `Works section` add a line break and a comment saying `Works section`
+- before the `About Us section` add a line break and a comment saying `About Us section`
+- before the `Latest news section` add a line break and a comment saying `Latest news section`
+- before the `Testimonials section` add a line break and a comment saying `Testimonials section`
+- before the `Contact section` add a line break and a comment saying `Contact section`
 
-Repo:
+**Does not need to pass W3C**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 17-index.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `17-index.html`
 
 ### [18. link your logo](./18-index.html)
 
-Copy the content of 17-index.html into 18-index.html
+Copy the content of `17-index.html` into `18-index.html`
 
-in the header, wrap the span with a link that redirects to the page at the root of your folder (/)
-wrap the link with a div
-W3C does not need to pass
+- in the `header`, wrap the `span` with a link that redirects to the page at the root of your folder (`/`)
+- wrap the link with a `div`
 
-Repo:
+**W3C does not need to pass**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 18-index.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `18-index.html`
 
 ### [19. Create new pages](./about.html)
 
-Copy the content of 18-index.html into about.html, latest_news.html and contact.html
+Copy the content of `18-index.html` into `about.html`, `latest_news.html` and `contact.html`
 
-change the title of about.html to replace Homepage with About
-change the title of latest_news.html to replace Homepage with Latest news
-change the title of contact.html to replace Homepage with Contact
-Does not need to pass W3C
+- change the title of `about.html` to replace `Homepage` with `About`
+- change the title of `latest_news.html` to replace `Homepage` with `Latest news`
+- change the title of `contact.html` to replace `Homepage` with `Contact`
 
-Repo:
+**Does not need to pass W3C**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: about.html, latest_news.html, contact.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `about.html, latest_news.html, contact.html`
 
 ### [20. Add links](./20-index.html)
 
-Copy the content of 18-index.html into 20-index.html
+Copy the content of `18-index.html` into `20-index.html`
 
-in your nav tags
-create a link to / with the text Home
-create an anchor to services with the text Services
-create an anchor to works with the text Works
-create an anchor to about with the text About
-create an anchor to latest_news with the text Latest news
-create an anchor to testimonials with the text Testimonials
-create an anchor to contact with the text Contact
+in your `nav` tags
+create a link to `/` with the text `Home`
+create an anchor to `services` with the text `Services`
+create an anchor to `works` with the text `Works`
+create an anchor to `about` with the text `About`
+create an anchor to `latest_news` with the text `Latest news`
+create an anchor to `testimonials` with the text `Testimonials`
+create an anchor to `contact` with the text `Contact`
+
 For now, the anchor links will not work. We will make them work in the CSS project.
 
-Does not need to pass W3C
+**Does not need to pass W3C**
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 20-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `20-index.html`
 
 ### [21. Add social media links](./21-index.html)
 
-Copy the content of 20-index.html into 21-index.html
+Copy the content of `20-index.html` into `21-index.html`
 
-in the div in the footer
-remove any text you have
-create a link to https://www.facebook.com/HolbertonSchool/ with the text Facebook
-create a link to https://twitter.com/holbertonschool with the text Twitter
-create a link to https://www.instagram.com/holbertonschool/ with the text Instagram
-W3C won’t pass - you can ignore it
+- in the `div` in the `footer`
+  - remove any text you have
+  - create a link to `https://www.facebook.com/HolbertonSchool/` with the text `Facebook`
+  - create a link to `https://twitter.com/holbertonschool` with the text `Twitter`
+  - create a link to `https://www.instagram.com/holbertonschool/` with the text `Instagram`
 
-Repo:
+**W3C won’t pass - you can ignore it**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 21-index.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `21-index.html`
 
 ### [22. "Button" links](./22-index.html)
 
-Copy the content of 21-index.html into 22-index.html
+Copy the content of `21-index.html` into `22-index.html`
 
-in the Hero section, after the heading
-create a link to # with the text Get started
-in the About Us section, after the div containing the level 3 headings and paragraphs
-create a link to about.html with the text Learn more about us
-in the Contact section, after the div containing the paragraph
-create a link to contact.html with text Get in touch
-Does not need to pass W3C
+- in the Hero `section`, after the heading
+  - create a link to `#` with the text `Get started`
+- in the About Us `section`, after the `div` containing the level 3 headings and paragraphs
+  - create a link to `about.html` with the text `Learn more about us`
+- in the Contact `section`, after the `div` containing the paragraph
+  - create a link to `contact.html` with text `Get in touch`
 
-Repo:
+**Does not need to pass W3C**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x00-html_advanced
-File: 22-index.html
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x00-html_advanced`
+* File: `22-index.html`
 
 ### [23. Services, Works, Latest news links](./23-index.html)
 
