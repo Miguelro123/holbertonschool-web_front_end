@@ -425,9 +425,11 @@ You can save it in a `index.html` file and replace the `<link rel='stylesheet' h
 <details>
 <summary>Show</summary>
   
-Question #0
-What’s the final color text of <h1> in this code?
+### Question #0
 
+What’s the final color text of `<h1>` in this code?
+
+```
 <html>
     <head>
         <style>
@@ -440,23 +442,20 @@ What’s the final color text of <h1> in this code?
             <h1>Hello</h1>
     </body>
 </html>
+```
+
 Please answer without executing the code, just by reading
 
+- [ ] Black (default value)
+- [x] `#FF0000`
+- [ ] `#00FF00`
+- [ ] `#0000FF`
 
-Black (default value)
+### Question #1
 
+What’s the final color text of `<h1>` in this code?
 
-#FF0000
-
-
-#00FF00
-
-
-#0000FF
-
-Question #1
-What’s the final color text of <h1> in this code?
-
+```
 <html>
     <head>
         <style>
@@ -469,23 +468,20 @@ What’s the final color text of <h1> in this code?
             <h1>Hello</h1>
     </body>
 </html>
+```
+
 Please answer without executing the code, just by reading
 
+- [ ] Black (default value)
+- [x] `#FF0000`
+- [ ] `#00FF00`
+- [ ] `#0000FF`
 
-Black (default value)
+### Question #2
 
+What’s the final color text of `<h1>` in this code?
 
-#FF0000
-
-
-#00FF00
-
-
-#0000FF
-
-Question #2
-What’s the final color text of <h1> in this code?
-
+```
 <html>
     <head>
         <style>
@@ -498,23 +494,20 @@ What’s the final color text of <h1> in this code?
             <h1>Hello</h1>
     </body>
 </html>
+```
+
 Please answer without executing the code, just by reading
 
+- [x] Black (default value)
+- [ ] `#FF0000`
+- [ ] `#00FF00`
+- [ ] `#0000FF`
 
-Black (default value)
+### Question #3
 
+What’s the final color text of `<h1>` in this code?
 
-#FF0000
-
-
-#00FF00
-
-
-#0000FF
-
-Question #3
-What’s the final color text of <h1> in this code?
-
+```
 <html>
     <head>
         <style>
@@ -527,23 +520,20 @@ What’s the final color text of <h1> in this code?
             <h1>Hello</h1>
     </body>
 </html>
+```
+
 Please answer without executing the code, just by reading
 
+- [ ] Black (default value)
+- [ ] `#FF0000`
+- [x] `#00FF00`
+- [ ] `#0000FF`
 
-Black (default value)
+### Question #4
 
+What’s the final color text of `<h1>` in this code?
 
-#FF0000
-
-
-#00FF00
-
-
-#0000FF
-
-Question #4
-What’s the final color text of <h1> in this code?
-
+```
 <html>
     <head>
         <style>
@@ -559,23 +549,20 @@ What’s the final color text of <h1> in this code?
             <h1>Hello</h1>
     </body>
 </html>
+```
+
 Please answer without executing the code, just by reading
 
+- [ ] Black (default value)
+- [x] `#FF0000`
+- [ ] `#00FF00`
+- [ ] `#0000FF`
 
-Black (default value)
+### Question #5
 
+What’s the final color text of `<h1>` in this code?
 
-#FF0000
-
-
-#00FF00
-
-
-#0000FF
-
-Question #5
-What’s the final color text of <h1> in this code?
-
+```
 <html>
     <head>
         <style>
@@ -591,23 +578,20 @@ What’s the final color text of <h1> in this code?
             <h1>Hello</h1>
     </body>
 </html>
+```
+
 Please answer without executing the code, just by reading
 
+- [ ] Black (default value)
+- [ ] `#FF0000`
+- [x] `#00FF00`
+- [ ] `#0000FF`
 
-Black (default value)
+### Question #6
 
+What’s the final color text of `<h1>` in this code?
 
-#FF0000
-
-
-#00FF00
-
-
-#0000FF
-
-Question #6
-What’s the final color text of <h1> in this code?
-
+```
 <html>
     <head>
         <style>
@@ -626,23 +610,20 @@ What’s the final color text of <h1> in this code?
             <h1 class="title">Hello</h1>
     </body>
 </html>
+```
+
 Please answer without executing the code, just by reading
 
+- [ ] Black (default value)
+- [ ] `#FF0000`
+- [x] `#00FF00`
+- [ ] `#0000FF`
 
-Black (default value)
+### Question #7
 
+What’s the final color text of `<h1>` in this code?
 
-#FF0000
-
-
-#00FF00
-
-
-#0000FF
-
-Question #7
-What’s the final color text of <h1> in this code?
-
+```
 <html>
     <head>
         <style>
@@ -661,268 +642,198 @@ What’s the final color text of <h1> in this code?
             <h1 class="title">Hello</h1>
     </body>
 </html>
+```
+
 Please answer without executing the code, just by reading
 
+- [ ] Black (default value)
+- [x] `#FF0000`
+- [ ] `#00FF00`
+- [ ] `#0000FF`
 
-Black (default value)
+### Question #8
 
+`padding` is adding space between?
 
-#FF0000
+- [ ] Between the inside content and the border of the element
+- [x] Between the border of the element and external elements (parent and siblings elements)
 
+### Question #9
 
-#00FF00
+`margin` is adding space between?
 
+- [ ] Between the inside content and the border of the element
+- [x] Between the border of the element and external elements (parent and siblings elements)
 
-#0000FF
+### Question #10
 
-Question #8
-padding is adding space between?
+What’s the impact of `position: fixed` on an element?
 
+- [ ] the element position will be relative to its normal position
+- [ ] the element position will be relative to the nearest positioned ancestor element
+- [ ] the element position will be based on the user’s scroll position
+- [x] the element position will be relative to the viewport
 
-Between the inside content and the border of the element
+### Question #11
 
+What’s the impact of `position: absolute` on an element?
 
-Between the border of the element and external elements (parent and siblings elements)
+- [ ] the element position will be relative to its normal position
+- [x] the element position will be relative to the nearest positioned ancestor element
+- [ ] the element position will be based on the user’s scroll position
+- [ ] the element position will be relative to the viewport
 
-Question #9
-margin is adding space between?
+### Question #12
 
+What’s `z-index`?
 
-Between the inside content and the border of the element
+- [ ] `z-index` is defining the left position of an element
+- [x] `z-index` is defining the stack position of an element (from front to background)
+- [ ] `z-index` is defining the SEO indexing position
 
+### Question #13
 
-Between the border of the element and external elements (parent and siblings elements)
+What’s the impact of `overflow-y: auto` on an element?
 
-Question #10
-What’s the impact of position: fixed on an element?
+- [ ] the element allows horizontal scrolling if the content is too large
+- [x] the element allows vertical scrolling if the content is too long
+- [ ] the element allows vertical and horizontal scrolling if the content is too long/large
+- [ ] the element doesn’t allow vertical and horizontal scrolling if the content is too long/large
+- [ ] no impact on the element
 
+### Question #14
 
-the element position will be relative to its normal position
+What’s the `font-size` in pixel of an element `p.my_class`?
 
-
-the element position will be relative to the nearest positioned ancestor element
-
-
-the element position will be based on the user’s scroll position
-
-
-the element position will be relative to the viewport
-
-Question #11
-What’s the impact of position: absolute on an element?
-
-
-the element position will be relative to its normal position
-
-
-the element position will be relative to the nearest positioned ancestor element
-
-
-the element position will be based on the user’s scroll position
-
-
-the element position will be relative to the viewport
-
-Question #12
-What’s z-index?
-
-
-z-index is defining the left position of an element
-
-
-z-index is defining the stack position of an element (from front to background)
-
-
-z-index is defining the SEO indexing position
-
-Question #13
-What’s the impact of overflow-y: auto on an element?
-
-
-the element allows horizontal scrolling if the content is too large
-
-
-the element allows vertical scrolling if the content is too long
-
-
-the element allows vertical and horizontal scrolling if the content is too long/large
-
-
-the element doesn’t allow vertical and horizontal scrolling if the content is too long/large
-
-
-no impact on the element
-
-Question #14
-What’s the font-size in pixel of an element p.my_class?
-
+```
 p {
     font-size: 12px;
 }
 p.my_class {
     color: #FF0000;
 }
+```
 
-10px
+- [ ] 10px
+- [x] 12px
+- [ ] 16px
+- [ ] 20px
 
+### Question #15
 
-12px
+What’s the `font-size` in pixel of an element `p.my_class`?
 
-
-16px
-
-
-20px
-
-Question #15
-What’s the font-size in pixel of an element p.my_class?
-
+```
 p {
     font-size: 12px;
 }
 p.my_class {
     font-size: 1em;
 }
+```
 
-10px
+- [ ] 10px
+- [x] 12px
+- [ ] 14px
+- [ ] 16px
 
+### Question #16
 
-12px
+What’s the `font-size` in pixel of an element `p.my_class`?
 
-
-14px
-
-
-16px
-
-Question #16
-What’s the font-size in pixel of an element p.my_class?
-
+```
 p {
     font-size: 12px;
 }
 p.my_class {
     font-size: 1.5em;
 }
+```
 
-10px
+- [ ] 10px
+- [ ] 12px
+- [ ] 16px
+- [x] 18px
+- [ ] 20px
+- [ ] 24px
 
+### Question #17
 
-12px
+What’s the `font-size` in pixel of an element `p.my_class`?
 
-
-16px
-
-
-18px
-
-
-20px
-
-
-24px
-
-Question #17
-What’s the font-size in pixel of an element p.my_class?
-
+```
 p {
     font-size: 12px;
 }
 p.my_class {
     font-size: 0.25em;
 }
+```
 
-3px
+- [x] 3px
+- [ ] 4px
+- [ ] 6px
+- [ ] 10px
 
+### Question #18
 
-4px
+What’s the `font-size` in pixel of an element `p.my_class` if the default `p font-size` is 16px?
 
-
-6px
-
-
-10px
-
-Question #18
-What’s the font-size in pixel of an element p.my_class if the default p font-size is 16px?
-
+```
 p {
     font-size: 12px;
 }
 p.my_class {
     font-size: 0.25rem;
 }
+```
 
-3px
+- [ ] 3px
+- [x] 4px
+- [ ] 6px
+- [ ] 10px
 
+### Question #19
 
-4px
+What’s the `font-size` in pixel of an element `p.my_class` if the default `p` `font-size` is 16px?
 
-
-6px
-
-
-10px
-
-Question #19
-What’s the font-size in pixel of an element p.my_class if the default p font-size is 16px?
-
+```
 p {
     font-size: 12px;
 }
 p.my_class {
     font-size: 2.25rem;
 }
+```
 
-12px
+- [ ] 12px
+- [ ] 16px
+- [ ] 20px
+- [ ] 27px
+- [x] 36px
+- [ ] 43px
+- [ ] 64px
 
+### Question #20
 
-16px
+What’s the `font-size` in pixel of an element `p.my_class` if the default `p` `font-size` is 16px?
 
-
-20px
-
-
-27px
-
-
-36px
-
-
-43px
-
-
-64px
-
-Question #20
-What’s the font-size in pixel of an element p.my_class if the default p font-size is 16px?
-
+```
 p {
     font-size: 75%;
 }
 p.my_class {
     font-size: 2.25em;
 }
+```
 
-12px
-
-
-16px
-
-
-20px
-
-
-25px
-
-
-27px
-
-
-30px
-
-
-36px
+- [ ] 12px
+- [ ] 16px
+- [ ] 20px
+- [ ] 25px
+- [x] 27px
+- [ ] 30px
+- [ ] 36px
 
 </details>
 
