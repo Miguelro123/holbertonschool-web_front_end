@@ -844,32 +844,32 @@ p.my_class {
 <details>
 <summary>View Contents</summary>
 
-0. Let's get some images! mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [0. Let's get some images! mandatory](./images)
+
 The description of the project contains some inspiration for the final look of the project but we’ll have to download some images.
 
-Head to unsplash and download 10 high resolution images that look as close to the final product that you’re going to make. You will be using these same high res images for a project on Responsive Design in the future. Remember to also include the 3 images (the 2 logos and the favicon) linked in the description of the project.
+Head to [unsplash](https://unsplash.com/) and download 10 high resolution images that look as close to the final product that you’re going to make. You will be using these same high res images for a project on `Responsive Design` in the future. Remember to also include the 3 images (the 2 logos and the favicon) linked in the description of the project.
 
-The images should all be representative of category they belong to. Images in the work category should be closely related to work.
+The images should all be representative of category they belong to. Images in the `work` category should be closely related to `work`.
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: images/pic-about-01.jpg, images/pic-work-01.jpg, images/pic-work-02.jpg, images/pic-work-03.jpg, images/pic-article-01.jpg, images/pic-article-02.jpg, images/pic-article-03.jpg, images/pic-person-01.jpg, images/pic-person-02.jpg, images/pic-person-03.jpg
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `images/pic-about-01.jpg, images/pic-work-01.jpg, images/pic-work-02.jpg, images/pic-work-03.jpg, images/pic-article-01.jpg, images/pic-article-02.jpg, images/pic-article-03.jpg, images/pic-person-01.jpg, images/pic-person-02.jpg, images/pic-person-03.jpg`
 
-1. Effortless transitions when scrolling mandatory
-Score: 100.00% (Checks completed: 100.00%)
-When scrolling is triggered on the html element itself, we’d like the behavior of the scroll to be as fluid as possible.
+### [1. Effortless transitions when scrolling](./styles/1-style.css)
 
-Repo:
+When scrolling is triggered on the `html` element itself, we’d like the behavior of the scroll to be as fluid as possible.
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/1-style.css
+**Repo:**
 
-2. Do you know your color values? mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/1-style.css`
+
+### [2. Do you know your color values? mandatory](./styles/)
+
 Based on styles/1-style.css, create the following declarations:
 
 For the body, set the foreground color value to #161616
@@ -883,7 +883,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/2-style.css
 
-3. Reuse and repeat. A programmer's life should be simple with variables mandatory
+### [3. Reuse and repeat. A programmer's life should be simple with variables](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/2-style.css:
 
@@ -904,7 +904,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/3-style.css
 
-4. Variables for storing certain font types mandatory
+### [4. Variables for storing certain font types](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/3-style.css:
 
@@ -924,7 +924,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/4-style.css
 
-5. Variables for the font size mandatory
+### [5. Variables for the font size](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/4-style.css:
 
@@ -944,7 +944,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/5-style.css
 
-6. Variables for the font-weight mandatory
+### [6. Variables for the font-weight](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/5-style.css
 
@@ -961,7 +961,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/6-style.css
 
-7. Integrating Google Fonts into the CSS file mandatory
+### [7. Integrating Google Fonts into the CSS file](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/6-style.css:
 
@@ -975,7 +975,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/7-style.css
 
-8. Defining line heights mandatory
+### [8. Defining line heights](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/7-style.css:
 
@@ -992,7 +992,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/8-style.css
 
-9. Links are decorated by default, time to remove them mandatory
+### [9. Links are decorated by default, time to remove them](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/8-style.css
 
@@ -1006,7 +1006,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/9-style.css
 
-10. Centering the section titles mandatory
+### [10. Centering the section titles](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/9-style.css:
 
@@ -1021,7 +1021,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/10-style.css
 
-11. Add more styles to the section tagline mandatory
+### [11. Add more styles to the section tagline](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/10-style.css:
 
@@ -1038,7 +1038,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/11-style.css
 
-12. Adding more styling to the section title mandatory
+### [12. Adding more styling to the section title](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/11-style.css:
 
@@ -1058,7 +1058,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/12-style.css
 
-13. Pseudo Classes mandatory
+### [13. Pseudo Classes](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/12-style.css:
 
@@ -1077,7 +1077,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/13-style.css
 
-14. Resetting the CSS stylesheet for browser consistency mandatory
+### [14. Resetting the CSS stylesheet for browser consistency](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/13-style.css:
 
@@ -1091,7 +1091,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/14-style.css
 
-15. Add universal box-sizing mandatory
+### [15. Add universal box-sizing](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/14-style.css:
 
@@ -1105,7 +1105,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/15-style.css
 
-16. Styling the container mandatory
+### [16. Styling the container](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/15-style.css:
 
@@ -1123,7 +1123,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/16-style.css
 
-17. Adding padding to sections mandatory
+### [17. Adding padding to sections](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/16-style.css:
 
@@ -1147,7 +1147,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/17-style.css
 
-18. Customizing the navbar mandatory
+### [18. Customizing the navbar](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/17-style.css:
 
@@ -1184,7 +1184,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/18-style.css
 
-19. Grid styling and custom variables mandatory
+### [19. Grid styling and custom variables](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/18-style.css:
 
@@ -1215,7 +1215,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/19-style.css
 
-20. Clear the context of the grid mandatory
+### [20. Clear the context of the grid](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/19-style.css:
 
@@ -1232,7 +1232,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/20-style.css
 
-21. Simplify the col- selector mandatory
+### [21. Simplify the col- selector](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/20-style.css:
 
@@ -1249,7 +1249,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/21-style.css
 
-22. Add a dark theme to sections mandatory
+### [22. Add a dark theme to sections](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/21-style.css:
 
@@ -1266,7 +1266,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/22-style.css
 
-23. Fix issues for dark theme mandatory
+### [23. Fix issues for dark theme](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/22-style.css:
 
@@ -1287,7 +1287,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/23-style.css
 
-24. Add background and hover state to services mandatory
+### [24. Add background and hover state to services](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/23-style.css
 
@@ -1312,7 +1312,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/24-style.css
 
-25. Add border to the button mandatory
+### [25. Add border to the button](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/24-style.css
 
@@ -1353,7 +1353,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/25-style.css
 
-26. Add border radius to images mandatory
+### [26. Add border radius to images](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/25-style.css
 
@@ -1378,7 +1378,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/26-style.css
 
-27. Styling the section hero mandatory
+### [27. Styling the section hero](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/26-style.css
 
@@ -1400,7 +1400,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/27-style.css
 
-28. Fixing the header and menu navigation bar mandatory
+### [28. Fixing the header and menu navigation bar](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/27-style.css
 
@@ -1432,7 +1432,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/28-style.css
 
-29. Styling and custom properties for the nav mandatory
+### [29. Styling and custom properties for the nav](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/28-style.css
 
@@ -1459,7 +1459,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/29-style.css
 
-30. Fix the works section mandatory
+### [30. Fix the works section](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/29-style.css
 
@@ -1511,7 +1511,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/30-style.css
 
-31. Add quotes decoration on testimonials mandatory
+### [31. Add quotes decoration on testimonials](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Target the card-quote that is inside the card-testimonial
 
@@ -1533,7 +1533,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/31-style.css
 
-32. Incorporating transitions mandatory
+### [32. Incorporating transitions](./styles/)
 Score: 100.00% (Checks completed: 100.00%)
 Create some custom properties
 
