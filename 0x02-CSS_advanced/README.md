@@ -868,262 +868,275 @@ When scrolling is triggered on the `html` element itself, we’d like the behavi
 * Directory: `0x02-CSS_advanced`
 * File: `styles/1-style.css`
 
-### [2. Do you know your color values? mandatory](./styles/)
+### [2. Do you know your color values? mandatory](./styles/2-style.css)
 
-Based on styles/1-style.css, create the following declarations:
+Based on `styles/1-style.css`, create the following declarations:
 
-For the body, set the foreground color value to #161616
-For all anchor elements, set the foreground color value to #161616
-All elements with the class visually-hidden should have their display to none
-All elements with the class card-category, should have their foreground color set to #D73953
-All elements with the class section-tagline should have their foreground color set to #D73953
-Repo:
+- For the `body`, set the foreground color value to `#161616`
+- For all anchor elements, set the foreground color value to `#161616`
+- All elements with the class `visually-hidden` should have their display to `none`
+- All elements with the class `card-category`, should have their foreground color set to `#D73953`
+- All elements with the class `section-tagline` should have their foreground color set to `#D73953`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/2-style.css
+**Repo:**
 
-### [3. Reuse and repeat. A programmer's life should be simple with variables](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/2-style.css:
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/2-style.css`
 
-Target the root element and define the following custom properties:
-color-primary set to #d73953
-color-black set to #090909
-color-white set to #ffffff
-color-light-grey set to #f3f3f3
-color-dark-grey set to #353535
-text-color set to color-black
-Revisit the section-tagline and card-category declarations and reset their color to color-primary
-Revisit the body and anchor declarations and reset their color to text-color
-Does not have to pass w3c
+### [3. Reuse and repeat. A programmer's life should be simple with variables](./styles/3-style.css)
 
-Repo:
+Based on `styles/2-style.css`:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/3-style.css
+- Target the `root` element and define the following custom properties:
+  - `color-primary` set to `#d73953`
+  - `color-black` set to `#090909`
+  - `color-white` set to `#ffffff`
+  - `color-light-grey` set to `#f3f3f3`
+  - `color-dark-grey` set to `#353535`
+  - `text-color` set to `color-black`
+- Revisit the `section-tagline` and `card-category` declarations and reset their color to `color-primary`
+- Revisit the `body` and anchor declarations and reset their color to `text-color`
 
-### [4. Variables for storing certain font types](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/3-style.css:
+**Does not have to pass w3c**
 
-Targeting the root element, create the custom font-family properties font-family-base and font-family-title:
-set the first choice font as Helvetica Neue
-set the second choice font as Helvetica
-set the third choice font as Arial
-set the last choice font as sans-serif
-Set body‘s font-family to font-family-base
-Create a new declaration targeting all 6 levels of section headings, positioned before the links declaration
-set its font-family to font-family-title
-Does not need to pass W3C
+**Repo:**
 
-Repo:
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/3-style.css`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/4-style.css
+### [4. Variables for storing certain font types](./styles/4-style.css)
 
-### [5. Variables for the font size](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/4-style.css:
+Based on `styles/3-style.css`:
 
-Targeting the root selector, create the following custom properties:
-font-size-small set to 1.2rem
-font-size-medium set to 1.6rem
-font-size-large set to 1.8rem
-font-size-x-large set to 2.3rem
-font-size-xx-large set to 4.8rem
-All fonts in the html element should be at 62.5% of their normal size
-Any fonts in the body should have their sizes set to font-size-medium
-Does not need to pass W3C
+- Targeting the `root` element, create the custom font-family properties `font-family-base` and `font-family-title`:
+- set the first choice font as `Helvetica Neue`
+- set the second choice font as `Helvetica`
+- set the third choice font as `Arial`
+- set the last choice font as `sans-serif`
+- Set `body`‘s font-family to `font-family-base`
+- Create a new declaration targeting all 6 levels of section headings, positioned before the links declaration
+- set its font-family to `font-family-title`
 
-Repo:
+**Does not need to pass W3C**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/5-style.css
+**Repo:**
 
-### [6. Variables for the font-weight](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/5-style.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/4-style.css`
 
-Targeting the root element, create the following custom properties:
-font-weight-regular set to 400
-font-weight-bold set to 700
-Set the boldness of fonts in the body to font-weight-regular
-Set the boldness of fonts in the headings to font-weight-bold
-Does not need to pass W3C
+### [5. Variables for the font size](./styles/5-style.css)
 
-Repo:
+Based on `styles/4-style.css`:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/6-style.css
+- Targeting the `root` selector, create the following custom properties:
+  - `font-size-small` set to `1.2rem`
+  - `font-size-medium` set to `1.6rem`
+  - `font-size-large` set to `1.8rem`
+  - `font-size-x-large` set to `2.3rem`
+  - `font-size-xx-large` set to `4.8rem`
+- All fonts in the `html` element should be at `62.5%` of their normal size
+- Any fonts in the `body` should have their sizes set to `font-size-medium`
 
-### [7. Integrating Google Fonts into the CSS file](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/6-style.css:
+**Does not need to pass W3C**
 
-Add Open Sans as the first choice font for font-family-base, with the previous fonts shifted down accordingly
-Add Raleway as the first choice font for font-family-title, with the previous fonts shifted down accordingly
-Does not need to pass w3c
+**Repo:**
 
-Repo:
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/5-style.css`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/7-style.css
+### [6. Variables for the font-weight](./styles/6-style.css)
 
-### [8. Defining line heights](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/7-style.css:
+Based on `styles/5-style.css`
 
-Targeting root, create the following custom properties:
-line-height-small set to 1.2
-line-height-base set to 1.5
-line-height-big set to 1.8
-Set the minimum height of line boxes in the body to line-height-base
-Does not need to pass w3c
+- Targeting the `root` element, create the following custom properties:
+  - `font-weight-regular` set to `400`
+  - `font-weight-bold` set to `700`
+- Set the boldness of fonts in the `body` to `font-weight-regular`
+- Set the boldness of fonts in the headings to `font-weight-bold`
 
-Repo:
+**Does not need to pass W3C**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/8-style.css
+**Repo:**
 
-### [9. Links are decorated by default, time to remove them](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/8-style.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/6-style.css`
+
+### [7. Integrating Google Fonts into the CSS file](./styles/7-style.css)
+
+Based on `styles/6-style.css`:
+
+- Add `Open Sans` as the first choice font for `font-family-base`, with the previous fonts shifted down accordingly
+- Add `Raleway` as the first choice font for `font-family-title`, with the previous fonts shifted down accordingly
+
+**Does not need to pass w3c**
+
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/7-style.css`
+
+### [8. Defining line heights](./styles/8-style.css)
+
+Based on `styles/7-style.css`:
+
+- Targeting `root`, create the following custom properties:
+  - `line-height-small` set to `1.2`
+  - `line-height-base` set to `1.5`
+  - `line-height-big` set to `1.8`
+- Set the minimum height of line boxes in the `body` to `line-height-base`
+
+**Does not need to pass w3c**
+
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/8-style.css`
+
+### [9. Links are decorated by default, time to remove them](./styles/9-style.css)
+
+Based on `styles/8-style.css`
 
 Style the anchor elements so the text isn’t decorated with anything
 
-Does not need to pass w3c
+**Does not need to pass w3c**
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/9-style.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/9-style.css`
 
-### [10. Centering the section titles](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/9-style.css:
+### [10. Centering the section titles](./styles/10-style.css)
 
-Create a new custom property section-header-align and set it to center
-Just above the section-tagline declaration, create a new declaration targeting the class section-header
-Set horizontal alignment of that class with section-header-align
-Does not need to pass w3c
+Based on `styles/9-style.css`:
 
-Repo:
+- Create a new custom property `section-header-align` and set it to `center`
+- Just above the `section-tagline` declaration, create a new declaration targeting the class `section-header`
+  - Set horizontal alignment of that class with `section-header-align`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/10-style.css
+**Does not need to pass w3c**
 
-### [11. Add more styles to the section tagline](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/10-style.css:
+**Repo:**
 
-Create a custom property section-tagline-transform and set it to uppercase
-Targeting the section-tagline class:
-Set the family of fonts to font-family-title
-Add a rule that uses the section-tagline-transform property to modify text
-Set the weight of fonts to font-weight-bold
-Does not need to pass w3c
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/10-style.css`
 
-Repo:
+### [11. Add more styles to the section tagline](./styles/11-style.css)
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/11-style.css
+Based on `styles/10-style.css`:
 
-### [12. Adding more styling to the section title](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/11-style.css:
+- Create a custom property `section-tagline-transform` and set it to `uppercase`
+- Targeting the `section-tagline` class:
+  - Set the family of fonts to `font-family-title`
+  - Add a rule that uses the `section-tagline-transform` property to modify text
+  - Set the weight of fonts to `font-weight-bold`
 
-Create the following custom properties:
-section-title-margin set to 0
-section-title-color set to color-black
-Just above the section-tagline declaration, create a new declaration targeting the section-title class
+**Does not need to pass w3c**
 
-Set the family of fonts to font-family-title
-Set the font size to font-size-xx-large
-Set the font weight to font-weight-bold
-Use the section-title-margin to set the margin
-Use the section-title-color to set the text color
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/12-style.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/11-style.css`
 
-### [13. Pseudo Classes](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/12-style.css:
+### [12. Adding more styling to the section title](./styles/12-style.css)
 
-Ensure that the declaration targeting anchor elements only targets those containing a hyperlink
-Directly after this declaration, target the visited state for the link
-Italicize the text
-Directly after the visited state, target the hover state for the link
-Decorate the links with an underline when hovering
-Directly after the hover state, target the active state for the link
-Set the color of the background with the variable color-light-grey
-Does not need to pass w3c
+Based on `styles/11-style.css`:
 
-Repo:
+- Create the following custom properties:
+  - `section-title-margin` set to `0`
+  - `section-title-color` set to `color-black`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/13-style.css
+Just above the section-tagline declaration, create a new declaration targeting the `section-title` class
 
-### [14. Resetting the CSS stylesheet for browser consistency](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/13-style.css:
+- Set the family of fonts to `font-family-title`
+- Set the font size to `font-size-xx-large`
+- Set the font weight to `font-weight-bold`
+- Use the `section-title-margin` to set the margin
+- Use the `section-title-color` to set the text color
 
-Normalize your CSS file using necolas’ normalize.css with this version.
+**Repo:**
 
-Does not need to pass w3c
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/12-style.css`
 
-Repo:
+### [13. Pseudo Classes](./styles/13-style.css)
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/14-style.css
+Based on `styles/12-style.css`:
 
-### [15. Add universal box-sizing](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/14-style.css:
+- Ensure that the declaration targeting anchor elements only targets those containing a hyperlink
+- Directly after this declaration, target the visited state for the link
+  - Italicize the text
+- Directly after the visited state, target the hover state for the link
+  - Decorate the links with an underline when hovering
+- Directly after the hover state, target the active state for the link
+  - Set the color of the background with the variable `color-light-grey`
 
-Just before the styling for html, add a universal box sizing rule
+**Does not need to pass w3c**
 
-Does not need to pass w3c
+**Repo:**
 
-Repo:
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/13-style.css`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/15-style.css
+### [14. Resetting the CSS stylesheet for browser consistency](./styles/14-style.css)
 
-### [16. Styling the container](./styles/)
-Score: 100.00% (Checks completed: 100.00%)
-Based on styles/15-style.css:
+Based on `styles/13-style.css`:
 
-After the styles for .section-tagline,
+Normalize your CSS file using [necolas’ normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css) with [this version](https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css).
 
-Target the container class and set the following:
+**Does not need to pass w3c**
 
-960px wide
-evenly distribute the margins on both the left and and right side
-Does not need to pass w3c
+**Repo:**
 
-Repo:
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/14-style.css`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x02-CSS_advanced
-File: styles/16-style.css
+### [15. Add universal box-sizing](./styles/15-style.css)
 
-### [17. Adding padding to sections](./styles/)
+Based on `styles/14-style.css`:
+
+Just before the styling for `html`, add a universal box sizing rule
+
+**Does not need to pass w3c**
+
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/15-style.css`
+
+### [16. Styling the container](./styles/16-style.css)
+
+Based on `styles/15-style.css`:
+
+After the styles for `.section-tagline`,
+
+Target the `container` class and set the following:
+
+- `960px` wide
+- evenly distribute the margins on both the left and and right side
+
+**Does not need to pass w3c**
+
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x02-CSS_advanced`
+* File: `styles/16-style.css`
+
+### [17. Adding padding to sections](./styles/17-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/16-style.css:
 
@@ -1147,7 +1160,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/17-style.css
 
-### [18. Customizing the navbar](./styles/)
+### [18. Customizing the navbar](./styles/18-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/17-style.css:
 
@@ -1184,7 +1197,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/18-style.css
 
-### [19. Grid styling and custom variables](./styles/)
+### [19. Grid styling and custom variables](./styles/19-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/18-style.css:
 
@@ -1215,7 +1228,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/19-style.css
 
-### [20. Clear the context of the grid](./styles/)
+### [20. Clear the context of the grid](./styles/20-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/19-style.css:
 
@@ -1232,7 +1245,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/20-style.css
 
-### [21. Simplify the col- selector](./styles/)
+### [21. Simplify the col- selector](./styles/21-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/20-style.css:
 
@@ -1249,7 +1262,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/21-style.css
 
-### [22. Add a dark theme to sections](./styles/)
+### [22. Add a dark theme to sections](./styles/22-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/21-style.css:
 
@@ -1266,7 +1279,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/22-style.css
 
-### [23. Fix issues for dark theme](./styles/)
+### [23. Fix issues for dark theme](./styles/23-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/22-style.css:
 
@@ -1287,7 +1300,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/23-style.css
 
-### [24. Add background and hover state to services](./styles/)
+### [24. Add background and hover state to services](./styles/24-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/23-style.css
 
@@ -1312,7 +1325,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/24-style.css
 
-### [25. Add border to the button](./styles/)
+### [25. Add border to the button](./styles/25-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/24-style.css
 
@@ -1353,7 +1366,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/25-style.css
 
-### [26. Add border radius to images](./styles/)
+### [26. Add border radius to images](./styles/26-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/25-style.css
 
@@ -1378,7 +1391,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/26-style.css
 
-### [27. Styling the section hero](./styles/)
+### [27. Styling the section hero](./styles/27-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/26-style.css
 
@@ -1400,7 +1413,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/27-style.css
 
-### [28. Fixing the header and menu navigation bar](./styles/)
+### [28. Fixing the header and menu navigation bar](./styles/28-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/27-style.css
 
@@ -1432,7 +1445,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/28-style.css
 
-### [29. Styling and custom properties for the nav](./styles/)
+### [29. Styling and custom properties for the nav](./styles/29-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/28-style.css
 
@@ -1459,7 +1472,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/29-style.css
 
-### [30. Fix the works section](./styles/)
+### [30. Fix the works section](./styles/30-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Based on styles/29-style.css
 
@@ -1511,7 +1524,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/30-style.css
 
-### [31. Add quotes decoration on testimonials](./styles/)
+### [31. Add quotes decoration on testimonials](./styles/31-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Target the card-quote that is inside the card-testimonial
 
@@ -1533,7 +1546,7 @@ GitHub repository: holbertonschool-web_front_end
 Directory: 0x02-CSS_advanced
 File: styles/31-style.css
 
-### [32. Incorporating transitions](./styles/)
+### [32. Incorporating transitions](./styles/32-style.css)
 Score: 100.00% (Checks completed: 100.00%)
 Create some custom properties
 
