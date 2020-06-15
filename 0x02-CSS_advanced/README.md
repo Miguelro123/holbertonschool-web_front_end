@@ -57,7 +57,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 Store all these under a directory named “images”
 
 Use the following starter HTML file for your project.
-```
+
+<textarea readonly rows='21' cols='81'>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -414,7 +415,7 @@ Use the following starter HTML file for your project.
     </footer>
   </body>
 </html>
-```
+</textarea>
 
 You can save it in a `index.html` file and replace the `<link rel='stylesheet' href='#'>` by the right CSS file.
 
