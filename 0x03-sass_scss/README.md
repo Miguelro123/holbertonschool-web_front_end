@@ -141,21 +141,22 @@ Does Sass allow function creation?
 <details>
 <summary>View Contents</summary>
 
-0. Always debugging! mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [0. Always debugging!](./0-debug_log.scss)
+
 Write a Sass file that prints Hello world in the debug output.
 
 guillaume@ubuntu:~/$ sass 0-debug_log.scss | head -n 0
 0-debug_log.scss:2 DEBUG: Hello world
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 0-debug_log.scss
+**Repo:**
 
-1. Color variable mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 0-debug_log.scss
+
+### [1. Color variable](./1-color_variable.scss)
+
 Write a Sass file that assigns the text color #3D3D3D to the HTML tags body and p.
 
 You must use a Sass variable
@@ -166,14 +167,15 @@ body {
 p {
   color: #3D3D3D; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 1-color_variable.scss
+**Repo:**
 
-2. Colors mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 1-color_variable.scss
+
+### [2. Colors](./2-color_variables.scss)
+
 Write a Sass file that assigns:
 
 The text color #3D3D3D to the HTML tags body and p
@@ -190,14 +192,15 @@ p {
 h2 {
   background-color: #6D6D6D; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 2-color_variables.scss
+**Repo:**
 
-3. Nested tag mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 2-color_variables.scss
+
+### [3. Nested tag](./3-nested_tag.scss)
+
 Write a Sass file that assigns:
 
 No margin or padding in body tags
@@ -210,14 +213,15 @@ body {
   body p {
     margin: 10px; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 3-nested_tag.scss
+**Repo:**
 
-4. Nested class mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 3-nested_tag.scss
+
+### [4. Nested class](./4-nested_class.scss)
+
 Write a Sass file that assigns:
 
 Text color #3D3D3D to elements inside body tags
@@ -229,14 +233,15 @@ body {
   body .red {
     color: #FF0000; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 4-nested_class.scss
+**Repo:**
 
-5. Nested child mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 4-nested_class.scss
+
+### [5. Nested child](./5-nested_child.scss)
+
 Write a Sass file that assigns:
 
 Text color #3D3D3D to elements inside body tags
@@ -248,14 +253,15 @@ body {
   body > .red {
     color: #FF0000; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 5-nested_child.scss
+**Repo:**
 
-6. Nested hover mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 5-nested_child.scss
+
+### [6. Nested hover](./6-nested_hover.scss)
+
 Write a Sass file that assigns:
 
 Text color #FF0000 to button tags
@@ -267,14 +273,15 @@ button {
   button:hover {
     color: #00FF00; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 6-nested_hover.scss
+**Repo:**
 
-7. Nested and nested again mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 6-nested_hover.scss
+
+### [7. Nested and nested again](./7-nested_deeper.scss)
+
 Write a Sass file that assigns:
 
 Font size 14px to all body tags
@@ -289,14 +296,15 @@ body {
     body h1.smaller {
       font-size: 12px; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 7-nested_deeper.scss
+**Repo:**
 
-8. Margin mixin mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 7-nested_deeper.scss
+
+### [8. Margin mixin mandatory](./8-mixin_margins.scss)
+
 Write a Sass file that assigns:
 
 Margin left and right at 10px to body tags
@@ -311,14 +319,15 @@ div {
   margin-left: 15px;
   margin-right: 15px; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 8-mixin_margins.scss
+**Repo:**
 
-9. Extended mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 8-mixin_margins.scss
+
+### [9. Extended](./9-extend_list.scss)
+
 Write a Sass file that assigns:
 
 Font size 12px to all tags of class .info
@@ -334,14 +343,15 @@ guillaume@ubuntu:~/$ sass 9-extend_list.scss | tail -n +2
 .warning {
   color: #FF0000; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 9-extend_list.scss
+**Repo:**
 
-10. Import colors mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 9-extend_list.scss
+
+### [10. Import colors](./10-import_colors.scss)
+
 Write a Sass file that assigns:
 
 Text color $red from 10-colors.scss to the class .red
@@ -363,14 +373,15 @@ guillaume@ubuntu:~/$ sass 10-import_colors.scss | tail -n +3
 .blue {
   color: #0000FF; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 10-import_colors.scss
+**Repo:**
 
-11. For each mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 10-import_colors.scss
+
+### [11. For each](./11-loop_photos.scss)
+
 Write a Sass file that creates a class for each name in the list $list-names and assigns the background image based on the name (example below):
 
 You must use @import
@@ -391,14 +402,15 @@ guillaume@ubuntu:~/$ sass 11-loop_photos.scss | tail -n +3
 .photo-damian {
   background: image-url("photos/damian.jpg") no-repeat; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 11-loop_photos.scss
+**Repo:**
 
-12. Loop Headers mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 11-loop_photos.scss
+
+### [12. Loop Headers](./12-loop_header.scss)
+
 Write a Sass file that creates H* tags, where ‘*’ is the size of the font used.
 
 h1 must have font size equal to 1px, h2 must have font size equal to 2px, etc.
@@ -420,14 +432,15 @@ h4 {
 h5 {
   font-size: 5px; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 12-loop_header.scss
+**Repo:**
 
-13. Columns and operators #advanced
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 12-loop_header.scss
+
+### [13. Columns and operators #advanced](./100-loop_col.scss)
+
 Write a Sass file that creates classes with different width:
 
 col-1 with width equals to 100%
@@ -449,14 +462,15 @@ guillaume@ubuntu:~/$ sass 100-loop_col.scss | tail -n +2
 .col-4 {
   width: 25%; }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 100-loop_col.scss
+**Repo:**
 
-14. Media query #0 #advanced
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 100-loop_col.scss
+
+### [14. Media query #0 #advanced](./101-media_query.scss)
+
 Write a Sass file that assigns:
 
 Font size 20px to h1 tags
@@ -468,14 +482,15 @@ h1 {
     h1 {
       font-size: 14px; } }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 101-media_query.scss
+**Repo:**
 
-15. Media query #1 #advanced
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 101-media_query.scss
+
+### [15. Media query #1 #advanced](./102-media_query.scss)
+
 Write a Sass file that assigns:
 
 Font size 20px to h1 tags
@@ -498,14 +513,15 @@ h1 {
       h1.small {
         color: #1D1D1D; } }
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 102-media_query.scss
+**Repo:**
 
-16. Sort! #advanced
-Score: 0.00% (Checks completed: 0.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 102-media_query.scss
+
+### [16. Sort! #advanced](./103-sort_strings.scss)
+
 Write a Sass file that sorts the variable $list_to_sort and prints the sorted list in the debug output.
 
 guillaume@ubuntu:~/$ cat 103-sort_list.scss 
@@ -513,11 +529,12 @@ $list_to_sort: john anna zoe kim felicia carrie;
 guillaume@ubuntu:~/$ sass 103-sort_strings.scss | tail -n +2
 103-sort_strings.scss:64 DEBUG: anna carrie felicia john kim zoe
 guillaume@ubuntu:~/$ 
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x03-sass_scss
-File: 103-sort_strings.scss
+**Repo:**
+
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x03-sass_scss
+* File: 103-sort_strings.scss
 
 </details>
 
