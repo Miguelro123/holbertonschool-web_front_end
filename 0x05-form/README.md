@@ -333,6 +333,7 @@ To ensure we start on the same foot, use these files:
 
 `00-styles.css`
 
+<details>
 <summary>Click to expand/hide file contents</summary>
 
 ```
