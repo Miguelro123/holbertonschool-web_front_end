@@ -1154,8 +1154,8 @@ What’s the “flex” equivalent of:
 <details>
 <summary>View Contents</summary>
 
-0. Add display flex mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [0. Add display flex](./0-styles.css)
+
 Use the starter HTML and CSS files from this task to task 10. Copy the contents of the starter files into the files that you need to produce and make the necessary changes according to the task description.
 
 When using display: flex; on a container, all direct children become flex-items (and no more inline or block elements).
@@ -1172,14 +1172,14 @@ Entirely remove the row::after declaration
 Remove the float: left inside [class*='col-']
 => All elements should appear same than before using the float
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 0-index.html, 0-styles.css
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 0-index.html, 0-styles.css
 
-1. Add new classes on sections mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [1. Add new classes on sections](./1-styles.css)
+
 Using the files from the previous task as the base for this task:
 
 In the outermost section tag for services
@@ -1200,14 +1200,15 @@ Add the class section-testimonial
 In the outermost section tag for contact
 
 Add the class section-contact
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 1-index.html, 1-styles.css
+**Repo:**
 
-2. Reverse order Latest news cards mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 1-index.html, 1-styles.css
+
+### [2. Reverse order Latest news cards](./2-styles.css)
+
 Using the files from the previous task for this task:
 
 The flex-direction property says how flex items are placed on the main axis and their direction (normal or reversed).
@@ -1225,14 +1226,14 @@ Under that comment section, target the row class inside section-latest-news clas
 Property: flex-direction, Value: row-reverse
 The Latest news should appear in a reverse order.
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 2-index.html, 2-styles.css
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 2-index.html, 2-styles.css
 
-3. Simplify services list mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [3. Simplify services list](./3-styles.css)
+
 Using the files from the previous task for this task:
 
 flex-wrap is a property that can force the flex items to be in one or multiple lines. Learn more about it here.
@@ -1244,14 +1245,15 @@ Now, in your CSS file, before /*** 4. CARD ***/, add a new comment: /* Section S
 Under that comment section, add a new selector targeting the row class inside the section-services class
 
 Property: flex-wrap, Value: wrap
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 3-index.html, 3-styles.css
+**Repo:**
 
-4. Playing around with the spacing between flex service items mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 3-index.html, 3-styles.css
+
+### [4. Playing around with the spacing between flex service items](./4-styles.css)
+
 Using the files from the previous task for this task:
 
 In 4-styles.css file, within the Grid section
@@ -1269,14 +1271,15 @@ Set Property: margin to 1rem
 In ul.row declaration
 
 Replace the current margin with -1rem
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 4-index.html, 4-styles.css
+**Repo:**
 
-5. Flexify the header mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 4-index.html, 4-styles.css
+
+### [5. Flexify the header](./5-styles.css)
+
 Using the files from the previous task for this task:
 
 In your 5-index.html file, inside the Header section
@@ -1299,14 +1302,15 @@ header-logo-link-display
 header-logo-link-position
 header-logo-link-top
 header-logo-link-left
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 5-index.html, 5-styles.css
+**Repo:**
 
-6. Flexify the navbar mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 5-index.html, 5-styles.css
+
+### [6. Flexify the navbar](./6-styles.css)
+
 Using the files from the previous task for this task:
 
 in 6-styles.css, inside the /* Navbarsection
@@ -1318,26 +1322,27 @@ Target .nav-item + .nav-item inside nav class
 Move the margin declaration from .nav .nav-item inside the new selector.
 In the variables section
 Change the value of the variable nav-item-margin to be 0 0 0 2rem
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 6-index.html, 6-styles.css
+**Repo:**
 
-7. Align center logo and navbar mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 6-index.html, 6-styles.css
+
+### [7. Align center logo and navbar](./7-styles.css)
+
 Using the files from the previous task for this task:
 
 In 7-styles.css, inside the /* Header section, in the header-container class selector, set the property align-items to center
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 7-index.html, 7-styles.css
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 7-index.html, 7-styles.css
 
-8. Simplify the hero banner mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [8. Simplify the hero banner](./8-styles.css)
+
 Using the files from the previous task for this task:
 
 In 8-styles.cssInside the /* Section HERO section
@@ -1348,27 +1353,29 @@ Property: flex-direction, Value: column
 Property: align-items, Value: flex-start
 Property: justify-content, Value: center
 Property: min-height, Value: 50vh
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 8-index.html, 8-styles.css
+**Repo:**
 
-9. Better alignment about us mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 8-index.html, 8-styles.css
+
+### [9. Better alignment about us](./9-styles.css)
+
 Using the files from the previous task for this task:
 
 In 9-styles.css, after the /* Section SERVICES section, create a /* Section ABOUT US section. Inside that new section, target all classes that begin with col- inside section-about-us class
 
 Property: align-self, Value: center
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 9-index.html, 9-styles.css
+**Repo:**
 
-10. Creating an article by fixing issues and updating hero styles mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 9-index.html, 9-styles.css
+
+### [10. Creating an article by fixing issues and updating hero styles](./10-styles.css)
+
 Using the CSS file from the previous task and article.html (provided above in the project description) for this task:
 
 In 10-styles.css, inside the /* Section HERO section
@@ -1388,13 +1395,14 @@ Below, target .section-category inside section-hero class
 
 Property: color, Value: point to the variable color-white
 Property: text-transform, Value: uppercase
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 10-article.html, 10-styles.css
+**Repo:**
 
-11. Update the new hero banner mandatory
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 10-article.html, 10-styles.css
+
+### [11. Update the new hero banner](./11-styles.css)
 Score: 100.00% (Checks completed: 100.00%)
 In 11-article.html in the Hero section
 
@@ -1432,14 +1440,15 @@ Target the section-body class inside the hero-article class
 Property: position, Value: relative
 Property: padding, Value: 7rem 0 0
 Property: z-index, Value: 2
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 11-article.html, 11-styles.css
+**Repo:**
 
-12. The structure of the main article mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 11-article.html, 11-styles.css
+
+### [12. The structure of the main article](./12-styles.css)
+
 In your 12-article.html file, in the Hero section
 
 After the header, create a <div>and set its class to main-article (this div will be siblings with the Hero section header)
@@ -1468,14 +1477,15 @@ Property: width, Value: 100%
 Target the post-aside class
 Property: order, Value: -1
 Property: min-width, Value: 20%
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 12-article.html, 12-styles.css
+**Repo:**
 
-13. The meta list inside the aside section mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 12-article.html, 12-styles.css
+
+### [13. The meta list inside the aside section](./13-styles.css)
+
 In your 13-article.html
 
 Create an unordered list inside the post-meta div with the classes post-meta-list and row
@@ -1543,27 +1553,29 @@ Property: content, Value: ", " (space after the comma)
 Target the after pseudo element of the last-child on the li inside tag-list class
 
 Property: content, Value: empty
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 13-article.html, 13-styles.css
+**Repo:**
 
-14. Add the share social icons mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 13-article.html, 13-styles.css
+
+### [14. Add the share social icons](./14-styles.css)
+
 In your 14-article.html, inside the post-share div
 
 Copy paste the social nav list (already existing in the footer) inside
 Remove the li with Instagram (3rd one)
 Replace the href in the links with a default value ( #)
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 14-article.html, 14-styles.css
+**Repo:**
 
-15. Finalizing the cherry on the cake that is the article #advanced
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 14-article.html, 14-styles.css
+
+### [15. Finalizing the cherry on the cake that is the article #advanced](./100-styles.css)
+
 In your 100-article.html
 
 Inside the post-content article
@@ -1627,14 +1639,15 @@ Property: padding, Value: 0 .5rem
 Property: font-size, Value: point to the variable font-size-small
 Property: color, Value: point to the variable color-grey (if the variable doesn’t exist, create it with the value of #a0a0a0)
 Property: text-align, Value: center
-Repo:
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 100-article.html, 100-styles.css
+**Repo:**
 
-16. Timemachine boxes! #advanced
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 100-article.html, 100-styles.css
+
+### [16. Timemachine boxes! #advanced](./101-style.css)
+
 Write a CSS file that display a set of boxes in the same layout as the example screenshot below.
 
 Choose a custom color for each box
@@ -1664,11 +1677,11 @@ Use this 101-index.html file:
 </html>
 
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x04-flexbox
-File: 101-style.css
+* GitHub repository: holbertonschool-web_front_end
+* Directory: 0x04-flexbox
+* File: 101-style.css
 
 </details>
 
