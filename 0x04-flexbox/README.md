@@ -1503,176 +1503,195 @@ In your `12-styles.css`:
 
 In your `13-article.html`
 
-Create an unordered list inside the post-meta div with the classes post-meta-list and row
-Create a first <li> with the class post-meta-author
-Create the HTML tag that show a stronger importance
-Text: Written by:
-Create a link
-Href: #
-Rel: author
-Text: William Attaway
-Create a second <li> with the class post-meta-date
-Create the HTML tag that show a stronger importance
-Text: Posted on:
-Use the HTML tag for date / time - Datetime: 2019-10 - Text: October 2019
-Create a third <li> with the class post-meta-tag
-Create the HTML tag that show a stronger importance
-Text: Tags:
-Create an unordered list with the class tag-list
-First <li> contain a link
-Href: #
-Rel: tag
-Text: Web Design
-Second <li> contain a link
-Href: #
-Rel: tag
-Text: UX
-Update 13-styles.css with this information
+- Create an unordered list inside the `post-meta` div with the classes `post-meta-list` and `row`
+  - Create a first `<li>` with the class `post-meta-author`
+    - Create the HTML tag that show a stronger importance
+      - Text: `Written by:`
+    - Create a link
+      - Href: `#`
+      - Rel: `author`
+      - Text: `William Attaway`
+  - Create a second `<li>` with the class `post-meta-date`
+    - Create the HTML tag that show a stronger importance
+      - Text: `Posted on:`
+    - Use the HTML tag for date / time - Datetime: `2019-10` - Text: `October 2019`
+  - Create a third `<li>` with the class `post-meta-tag`
+    - Create the HTML tag that show a stronger importance
+      - Text: `Tags:`
+    - Create an unordered list with the class `tag-list`
+      - First `<li>` contain a link
+        - Href: `#`
+        - Rel: `tag`
+        - Text: `Web Design`
+      - Second `<li>` contain a link
+        - Href: `#`
+        - Rel: `tag`
+        - Text: `UX`
+
+Update `13-styles.css` with this information
 
 Add a separator comment
 
+```
 /* Post Meta
     ============================= */
-Target the post-meta-list class
+```
 
-Property: flex-direction, Value: column
-Target the strong tag inside post-meta-list class
+Target the `post-meta-list` class
 
-Property: color, Value: point to the variable color-primary
-Property: font-size, Value: point to the variable font-size-small
-Property: text-transform, Value: uppercase
-Property: display, Value: block
-Target all classes that start with post-meta- inside post-meta-list class
+- Property: `flex-direction`, Value: `column`
 
-Property: margin-bottom, Value: 1rem
-Property: padding-bottom, Value: 1rem
-Property: border-bottom, Values: 0.2rem solid and point to the color-light-grey variable
-Target the last child of all classes that start with post-meta inside post-meta-list class
+Target the `strong` tag inside `post-meta-list` class
 
-Property: border, Value: none
-Property: margin-bottom, Value: 3rem
+- Property: `color`, Value: point to the variable `color-primary`
+- Property: `font-size`, Value: point to the variable `font-size-small`
+- Property: `text-transform`, Value: `uppercase`
+- Property: `display`, Value: `block`
+
+Target all classes that start with `post-meta-` inside `post-meta-list` class
+
+- Property: `margin-bottom`, Value: `1rem`
+- Property: `padding-bottom`, Value: `1rem`
+- Property: `border-bottom`, Values: `0.2rem` solid and point to the `color-light-grey` variable
+
+Target the last child of all classes that start with `post-meta` inside `post-meta-list` class
+
+- Property: `border`, Value: `none`
+- Property: `margin-bottom`, Value: `3rem`
+
 Add a separator comment
 
+```
 /* Tag list
     ============================= */
-Target the tag-list class
+```
 
-Property: padding, Value: 0
-Property: list-style, Value: none
-Target all li inside the tag-list class
+Target the `tag-list` class
 
-Property: display, Value: inline
-Target the after pseudo element on the li inside tag-list class
+- Property: `padding`, Value: `0`
+- Property: `list-style`, Value: `none`
 
-Property: content, Value: ", " (space after the comma)
-Target the after pseudo element of the last-child on the li inside tag-list class
+Target all `li` inside the `tag-list` class
 
-Property: content, Value: empty
+- Property: `display`, Value: `inline`
+
+Target the `after` pseudo element on the `li` inside `tag-list` class
+
+- Property: `content`, Value: `", "` (space after the comma)
+
+Target the `after` pseudo element of the last-child on the `li` inside `tag-list` class
+
+- Property: `content`, Value: empty
 
 **Repo:**
 
-* GitHub repository: holbertonschool-web_front_end
-* Directory: 0x04-flexbox
-* File: 13-article.html, 13-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x04-flexbox`
+* File: `13-article.html, 13-styles.css`
 
 ### [14. Add the share social icons](./14-styles.css)
 
-In your 14-article.html, inside the post-share div
+In your `14-article.html`, inside the `post-share` div
 
-Copy paste the social nav list (already existing in the footer) inside
-Remove the li with Instagram (3rd one)
-Replace the href in the links with a default value ( #)
+- Copy paste the `social nav` list (already existing in the footer) inside
+- Remove the `li` with Instagram (3rd one)
+- Replace the `href` in the links with a default value (` #`)
 
 **Repo:**
 
-* GitHub repository: holbertonschool-web_front_end
-* Directory: 0x04-flexbox
-* File: 14-article.html, 14-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x04-flexbox`
+* File: `14-article.html, 14-styles.css`
 
 ### [15. Finalizing the cherry on the cake that is the article #advanced](./100-styles.css)
 
-In your 100-article.html
+In your `100-article.html`
 
-Inside the post-content article
+Inside the `post-content` article
 
-Add a paragraph
-Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama?
-Add another paragraph
-Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed haec omittamus; Hoc Hieronymus summum bonum esse dixit. Duo Reges: constructio interrete.
-You should wrap the following text with a <b> tag: Hoc Hieronymus summum bonum esse dixit.
-Add a heading level 2
-Text: Prioris generis est docilitas, memoria
-Add an ordered list
-First li
-Text: Nec enim, dum metuit, iustus est, et certe, si metuere destiterit, non erit;
-Second li
-Text: Quid enim de amicitia statueris utilitatis causa expetenda vides.
-Add another paragraph
-Text: Morbi pharetra congue ante ac tincidunt. Donec euismod eu mauris nec laoreet. Praesent id sodales ipsum. Aliquam erat volutpat. Ut porta sem eget libero faucibus, eget convallis nisi finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum accumsan euismod nunc quis viverra.
-Create a <figure> HTML tag
-Download this image and create an img tag to call it
-Alt: Glasses, baby converse shoes, black bag, wipes on a dresser with an open drawer
-Width: 620
-Height: 350
-Add a figcaption with the class img-caption
-Text: Pugnant Stoici cum Peripateticis. Prioris generis est docilitas
-Add a new paragraph
-Text: Quare conare, quaeso. Dici enim nihil potest verius. Primum divisit ineleganter; Suam denique cuique naturam esse ad vivendum ducem.
-Add a blockquote
-Cite: https://www.holbertonschool.com/
-Text: Ego autem tibi, Piso, assentior usu hoc venire, ut acrius aliquanto et attentius de claris viris locorum admonitu cogitemus.
-Add a new paragraph
-Text: Omnia contraria, quos etiam insanos esse vultis. Tibi hoc incredibile, quod beatissimum.
-Add a heading level 2
-Text: Piso igitur hoc modo, vir optimus tuique, ut scis, amantissimus.
-Add a new paragraph
-Text: Apparet statim, quae sint officia, quae actiones. Quae in controversiam veniunt, de iis, si placet, disseramus.
-Create a link that wraps Apparet statim, quae sint officia, quae actiones.
-Href: https://www.holbertonschool.com/
-Target: _blank
-Add the rel needed for target blank
-Add an unordered list
-First li: Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P.
-Second li: Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis?
-Third li: Sed in rebus apertissimis nimium longi sumus.
-Add one last paragraph:
-Text: Hoc etsi multimodis reprehendi potest, tamen accipio, quod dant. Atqui, inquam, Cato, si istud optinueris, traducas me ad te totum licebit. Nemo nostrum istius generis asotos iucunde putat vivere. Res enim se praeclare habebat, et quidem in utraque parte. Qui autem esse poteris, nisi te amor ipse ceperit? Ita fit cum gravior, tum etiam splendidior oratio. De vacuitate doloris eadem sententia erit. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum.
-Updating the CSS with more styling
+- Add a paragraph
+  - Text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama?`
+- Add another paragraph
+  - Text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed haec omittamus; Hoc Hieronymus summum bonum esse dixit. Duo Reges: constructio interrete.`
+    - You should wrap the following text with a `<b>` tag: `Hoc Hieronymus summum bonum esse dixit.`
+- Add a heading level 2
+  - Text: `Prioris generis est docilitas, memoria`
+- Add an ordered list
+  - First `li`
+    - Text: `Nec enim, dum metuit, iustus est, et certe, si metuere destiterit, non erit;`
+  - Second `li`
+    - Text: `Quid enim de amicitia statueris utilitatis causa expetenda vides.`
+- Add another paragraph
+  - Text: `Morbi pharetra congue ante ac tincidunt. Donec euismod eu mauris nec laoreet. Praesent id sodales ipsum. Aliquam erat volutpat. Ut porta sem eget libero faucibus, eget convallis nisi finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum accumsan euismod nunc quis viverra.`
+Create a `<figure>` HTML tag
+  - Download [this image](https://intranet.hbtn.io/rltoken/MmaFOrPQEv3mr-F5sDHQWA) and create an `img` tag to call it
+    - Alt: `Glasses, baby converse shoes, black bag, wipes on a dresser with an open drawer`
+    - Width: `620`
+    - Height: `350`
+  - Add a `figcaption` with the class `img-caption`
+    - Text: `Pugnant Stoici cum Peripateticis. Prioris generis est docilitas`
+- Add a new paragraph
+  - Text: `Quare conare, quaeso. Dici enim nihil potest verius. Primum divisit ineleganter; Suam denique cuique naturam esse ad vivendum ducem.`
+- Add a blockquote
+  - Cite: `https://www.holbertonschool.com/`
+  - Text: `Ego autem tibi, Piso, assentior usu hoc venire, ut acrius aliquanto et attentius de claris viris locorum admonitu cogitemus.`
+- Add a new paragraph
+  - Text: `Omnia contraria, quos etiam insanos esse vultis. Tibi hoc incredibile, quod beatissimum.`
+- Add a heading level 2
+  - Text: `Piso igitur hoc modo, vir optimus tuique, ut scis, amantissimus.`
+- Add a new paragraph
+  - Text: `Apparet statim, quae sint officia, quae actiones. Quae in controversiam veniunt, de iis, si placet, disseramus.`
+  - Create a link that wraps `Apparet statim, quae sint officia, quae actiones.`
+    - Href: `https://www.holbertonschool.com/`
+    - Target: `_blank`
+    - Add the `rel` needed for target blank
+- Add an unordered list
+  - First `li`: `Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P.`
+  - Second `li`: `Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis?`
+  - Third `li`: `Sed in rebus apertissimis nimium longi sumus.`
+- Add one last paragraph:
+  - Text: `Hoc etsi multimodis reprehendi potest, tamen accipio, quod dant. Atqui, inquam, Cato, si istud optinueris, traducas me ad te totum licebit. Nemo nostrum istius generis asotos iucunde putat vivere. Res enim se praeclare habebat, et quidem in utraque parte. Qui autem esse poteris, nisi te amor ipse ceperit? Ita fit cum gravior, tum etiam splendidior oratio. De vacuitate doloris eadem sententia erit. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum.`
 
-In the 100-styles.css
+**Updating the CSS with more styling**
 
-Target all img inside the post class
-Property: width, Value: 100%
-Property: height, Value: auto
-Target the first-child of paragraphs inside post-content class
+In the `100-styles.css`
 
-Property: font-size, Value: point to the variable font-size-x-large
-Target img-caption class inside post-content class
+- Target all `img` inside the `post` class
+  - Property: `width`, Value: `100%`
+  - Property: `height`, Value: `auto`
 
-Property: margin, Value: 1rem 0
-Property: padding, Value: 0 .5rem
-Property: font-size, Value: point to the variable font-size-small
-Property: color, Value: point to the variable color-grey (if the variable doesn’t exist, create it with the value of #a0a0a0)
-Property: text-align, Value: center
+Target the first-child of paragraphs inside `post-content` class
+
+- Property: `font-size`, Value: point to the variable `font-size-x-large`
+
+Target `img-caption` class inside `post-content` class
+
+- Property: `margin`, Value: `1rem 0`
+- Property: `padding`, Value: `0 .5rem`
+- Property: `font-size`, Value: point to the variable `font-size-small`
+- Property: `color`, Value: point to the variable `color-grey` (if the variable doesn’t exist, create it with the value of #a0a0a0)
+- Property: `text-align`, Value: `center`
 
 **Repo:**
 
-* GitHub repository: holbertonschool-web_front_end
-* Directory: 0x04-flexbox
-* File: 100-article.html, 100-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x04-flexbox`
+* File: `100-article.html, 100-styles.css`
 
 ### [16. Timemachine boxes! #advanced](./101-style.css)
 
 Write a CSS file that display a set of boxes in the same layout as the example screenshot below.
 
-Choose a custom color for each box
-You must use flex
-You are not allowed to use float
-You are not allowed to use text-align
-You are not allowed to use margin or padding
-You are not allowed to change the HTML file
-Use this 101-index.html file:
+- Choose a custom color for each box
+- You must use `flex`
+- You are not allowed to use `float`
+- You are not allowed to use `text-align`
+- You are not allowed to use `margin` or `padding`
+- You are not allowed to change the HTML file
 
+Use this `101-index.html` file:
+
+```
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -1690,13 +1709,13 @@ Use this 101-index.html file:
         </div>
     </body>
 </html>
-
+```
 
 **Repo:**
 
-* GitHub repository: holbertonschool-web_front_end
-* Directory: 0x04-flexbox
-* File: 101-style.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x04-flexbox`
+* File: `101-style.css`
 
 </details>
 
