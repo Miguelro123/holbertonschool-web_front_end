@@ -32,7 +32,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## Requirements
 
 ### General
-
+  
 - Allowed editors: `vi`, `vim`, `emacs`, `VSCode`, `Atom`
 - All your files will be interpreted on Chrome (version 78.x)
 - All your files should end with a new line
@@ -58,8 +58,6 @@ Store all these under a directory named “images”
 
 Use the following starter HTML file for your project.
 
-<textarea rows='21' cols='81'>
-  
   ```
   <!DOCTYPE html>
   <html lang="en" dir="ltr">
@@ -418,7 +416,6 @@ Use the following starter HTML file for your project.
     </body>
   </html>
   ```
-</textarea>
 
 You can save it in a `index.html` file and replace the `<link rel='stylesheet' href='#'>` by the right CSS file.
 
