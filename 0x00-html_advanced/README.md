@@ -40,6 +40,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Your code should be W3C compliant and validate with [W3C-Validator](https://github.com/holbertonschool/W3C-Validator)
 - `Techium` will be the name of the company we will use across our webpages.
 
+## Sitemap of the project
+
+![Sitemap](sitemap.png "Sitemap")
+
+## Wireframe of `Techium` project
+
+![Wireframe](wireframe.png "Wireframe")
+
 ---
 
 ## Quiz questions
