@@ -64,6 +64,9 @@ Store all these under a directory named “images”
 
 Use the following starter HTML file for your project.
 
+<details>
+<summary>Click to expand/hide file contents</summary>
+
   ```
   <!DOCTYPE html>
   <html lang="en" dir="ltr">
@@ -422,8 +425,13 @@ Use the following starter HTML file for your project.
     </body>
   </html>
   ```
+</details>
 
 You can save it in a `index.html` file and replace the `<link rel='stylesheet' href='#'>` by the right CSS file.
+
+## End goal of the project
+
+![End](endgoal.png "End")
 
 ---
 
