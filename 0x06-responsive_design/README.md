@@ -1583,50 +1583,52 @@ Going back to the `/* menu btn */` section
 * Directory: `0x06-responsive_design`
 * File: `06-index.html, 06-styles.css`
 
-7. Make the font size responsive mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [7. Make the font size responsive](./07-styles.css)
+
 We have multiple ways to make the typography responsive. The basic way would be to create multiple media queries and set a different font-size. But because we are using REM that are based on 62.5% (defined in the html selector). Changing that value would change proportionally all font sizes.
 
-In your CSS file at the end of the /* Base section
+In your CSS file at the end of the `/* Base` section
 
-Create a new media query for max-width: 480px
-Target the html element
-Property: font-size, Value: 57%
-Create a new media query for min-width: 481px and max-width: 767px
-Target the html element
-Property: font-size, Value 60%
+- Create a new media query for `max-width: 480px`
+  - Target the `html` element
+    - Property: `font-size`, Value: `57%`
+- Create a new media query for `min-width: 481px` and `max-width: 767px`
+  - Target the `html` element
+    - Property: `font-size`, Value `60%`
+
 This is a simple way to achieve responsive typography. More complex options can also be used to have a more granular control over the font sizes.
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x06-responsive_design
-File: 07-index.html, 07-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x06-responsive_design`
+* File: `07-index.html, 07-styles.css`
 
-8. Improve the "Works" section mandatory
-Score: 100.00% (Checks completed: 100.00%)
-in 08-styles.css, at the end of the /* Card WORK
+### [8. Improve the "Works" section](./08-styles.css)
 
-Create a new media query of max-width: 767px
-Target the card-inner class inside the card-work class
-Property: variable called text-color, Value: point to color-white variable
-Property: position, Value: relative
-Target the card-title class inside the card-work class
-Property: opacity, Value: 1
-Target all a tags inside .card-work .card-title class:
-Property: padding, Value: 2rem 1rem 0 1rem
-Rendering on screen of max-width: 767px
+in `08-styles.css`, at the end of the `/* Card WORK`
 
+- Create a new media query of `max-width: 767px`
+  - Target the `card-inner` class inside the `card-work` class
+    - Property: variable called `text-color`, Value: point to `color-white` variable
+    - Property: `position`, Value: `relative`
+  - Target the `card-title` class inside the `card-work` class
+    - Property: `opacity`, Value: `1`
+  - Target all `a` tags inside `.card-work .card-title` class:
+    - Property: `padding`, Value: `2rem 1rem 0 1rem`
 
+**Rendering on screen of max-width: 767px**
 
-Repo:
+![Rendering9](rendering9.png "Rendering9")
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x06-responsive_design
-File: 08-index.html, 08-styles.css
+**Repo:**
 
-9. Improve the "Footer" section mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x06-responsive_design`
+* File: `08-index.html, 08-styles.css`
+
+### [9. Improve the "Footer" section](./)
+
 in 09-styles.css, in the /* Footer section
 
 Create a new media query of max-width: 767px.
@@ -1638,7 +1640,7 @@ Target the adjacent lito the li inside the .social.nav and the adjacent li to th
 Property: padding-left, Value:2rem
 Rendering on screen of max-width: 767px
 
-
+![Rendering10](rendering10.png "Rendering10")
 
 Repo:
 
@@ -1659,7 +1661,7 @@ Target header class inside article-page class
 Property: background-color, Value: transparent
 Rendering of header and section-hero class elements
 
-
+![Rendering11](rendering11.png "Rendering11")
 
 Repo:
 
@@ -2013,11 +2015,11 @@ Property: margin, Value: 2rem
 Property: padding, Value: 0
 Rendering on desktop screen
 
-
+![Rendering12](rendering12.png "Rendering12")
 
 Rendering on screen of max-width: 767px
 
-
+![Rendering13](rendering13.png "Rendering13")
 
 Repo:
 
