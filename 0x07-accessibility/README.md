@@ -2279,173 +2279,180 @@ Check with Axe to ensure the issue is fixed.
 
 ### [3. Documents must have <title> element to aid in navigation](./fix-a11y/02-index.html)
 
-Taking your code from the previous task, in your fix-a11y/02-index.html file
+Taking your code from the previous task, in your `fix-a11y/02-index.html` file
 
-Add a title: Homepage - A fake website
+Add a title: `Homepage - A fake website`
 
 Check with Axe to ensure the issue is fixed
 
+![Homepage](homepage.png "Homepage")
 
+**Repo:**
 
-Repo:
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/02-index.html`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/02-index.html
+### [4. <html> element must have a lang attribute](./fix-a11y/03-index.html)
 
-4. <html> element must have a lang attribute mandatory
-Score: 100.00% (Checks completed: 100.00%)
-Taking your code from the previous task, in your fix-a11y/03-index.html file
+Taking your code from the previous task, in your `fix-a11y/03-index.html` file
 
-On the html tag, add the attribute lang with the en value.
+On the `html` tag, add the attribute `lang` with the en value.
 
 Check with Axe to ensure the issue is fixed.
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/03-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/03-index.html`
 
-5. Images must have alternate text mandatory
-Score: 100.00% (Checks completed: 100.00%)
-Taking your code from the previous task, in your fix-a11y/04-index.html file
+### [5. Images must have alternate text](./fix-a11y/04-index.html)
 
-Locate the img that points to the logo.png
-Add an alt attribute with the text Name of the logo
-Locate the img that points to the hero-img.png
-Add an empty alt (decorative image)
-Repo:
+Taking your code from the previous task, in your `fix-a11y/04-index.html` file
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/04-index.html
+- Locate the `img` that points to the `logo.png`
+  - Add an `alt` attribute with the text `Name of the logo`
+- Locate the `img` that points to the `hero-img.png`
+  - Add an empty `alt` (decorative image)
 
-6. Form elements must have labels mandatory
-Score: 100.00% (Checks completed: 100.00%)
-Taking your code from the previous task, in your fix-a11y/05-index.html file, locate the form
+**Repo:**
 
-Add a label just before the input
-Class: visually-hidden
-For: email
-On the input
-Add an id: email
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/04-index.html`
+
+### [6. Form elements must have labels](./fix-a11y/05-index.html)
+
+Taking your code from the previous task, in your `fix-a11y/05-index.html` file, locate the `form`
+
+- Add a `label` just before the `input`
+  - Class: `visually-hidden`
+  - For: `email`
+- On the `input`
+  - Add an `id`: `email`
+
 Axe tells use that the issue is solved. But actually, some elements should be fixed for better accessibility and usability.
 
-We can change the type from text to email
-Add the attribute autocomplete with the value email
-Add the required attribute and the aria-required="true"
-Change the a to be a button
-We can remove the placeholder as it doesn’t add any value
+- We can change the `type` from `text` to `email`
+- Add the attribute `autocomplete` with the value `email`
+- Add the `required` attribute and the `aria-required="true"`
+- Change the `a` to be a `button`
+- We can remove the `placeholder` as it doesn’t add any value
+
 We don’t have any error handling in our example, that should exist on the front-end / back-end side.
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/05-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/05-index.html`
 
-7. Links must have discernible text mandatory
-Score: 100.00% (Checks completed: 100.00%)
-In your fix-a11y/06-index.html file
+### [7. Links must have discernible text](./fix-a11y/06-index.html)
 
-Locate thefacebook-icon and add an aria-label on the a with the text Facebook
-Locate the twitter-icon and add an aria-label on the a with the text Twitter
-Links should never be empty, in our case, we are using a font (like Font Awesome) to generate icons.
+In your `fix-a11y/06-index.html` file
 
-Repo:
+- Locate the`facebook-icon` and add an `aria-label` on the `a` with the text `Facebook`
+- Locate the `twitter-icon` and add an `aria-label` on the `a` with the text `Twitter`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/06-index.html
+Links should never be empty, in our case, we are using a font (like [Font Awesome](https://fontawesome.com/6?next=%2F)) to generate icons.
 
-8. Zooming and scaling must not be disabled mandatory
-Score: 100.00% (Checks completed: 100.00%)
-In your fix-a11y/07-index.html file
+**Repo:**
 
-Locate the meta viewport and remove user-scalable=no
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/06-index.html`
 
-Repo:
+### [8. Zooming and scaling must not be disabled](./fix-a11y/07-index.html)
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/07-index.html
+In your `fix-a11y/07-index.html` file
 
-9. Heading levels should only increase by one and all page content must be contained by landmarks mandatory
-Score: 100.00% (Checks completed: 100.00%)
-You can install the headingsMap extension to have a visual representation of your headings.
+Locate the `meta` viewport and remove `user-scalable=no`
 
-Taking your code from the previous task, in your fix-a11y/08-index.html file
+**Repo:**
 
-Like our Techium project, we are going to create an h1 just after the <div class="header"> closing tag. (The h1 will be sibling to the <div class="header"> div)
-Text: Homepage
-Change <h6>This is me</h6> to be <h2>This is me</h2>
-Change <h1>Philip Gilbert</h1> to be <span>Philip Gilbert</span>
-Change <h6>About Me</h6> to be <h2>About Me</h2>
-Change <h1>Personal Details</h1> to be <span>Personal Details</span>
-Change <h1>My Offered Services</h1> to be <h2>My Offered Services</h2>
-Change <h4>Web Design</h4> to be <h3>Web Design</h3>
-Change <h4>Web Development</h4> to be <h3>Web Development</h3>
-Change <h1 class="counter">2536</h1> to be <span class="counter">2536</span>
-Change <h1 class="counter">6784</h1> to be <span class="counter">6784</span>
-Change <h1>Client's Feedback About Me</h1> to be <h2>Client's Feedback About Me</h2>
-Change <h4>Harriet Maxwell</h4> to be <span>Harriet Maxwell</span>
-Change <h1>Choose Your Plan</h1> to be <h2>Choose Your Plan</h2>
-Change <h1>01</h1> to be <h3>01</h3>
-Change <h1>$199.00</h1> to be <span>$199.00</span>
-Change <h4>About Me</h4> to be <span>About Me</span>
-Change <h4>Newsletter</h4> to be <span>Newsletter</span>
-Change <h4>Follow Me</h4> to be <span>Follow Me</span>
-Fixing wrong headings is not an easy task. Headings represent the outline of your content. Like the table of contents in a book, headings should help to understand what is inside your page.
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/07-index.html`
+
+### [9. Heading levels should only increase by one and all page content must be contained by landmarks](./fix-a11y/08-index.html)
+
+You can install the [headingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en) extension to have a visual representation of your headings.
+
+Taking your code from the previous task, in your `fix-a11y/08-index.html` file
+
+- Like our Techium project, we are going to create an `h1` just after the `<div class="header">` closing tag. (The `h1` will be sibling to the `<div class="header">` div)
+  - Text: `Homepage`
+- Change `<h6>This is me</h6>` to be `<h2>This is me</h2>`
+- Change `<h1>Philip Gilbert</h1>` to be `<span>Philip Gilbert</span>`
+- Change `<h6>About Me</h6>` to be `<h2>About Me</h2>`
+- Change `<h1>Personal Details</h1>` to be `<span>Personal Details</span>`
+- Change `<h1>My Offered Services</h1>` to be `<h2>My Offered Services</h2>`
+- Change `<h4>Web Design</h4>` to be `<h3>Web Design</h3>`
+- Change `<h4>Web Development</h4>` to be `<h3>Web Development</h3>`
+- Change `<h1 class="counter">2536</h1>` to be `<span class="counter">2536</span>`
+- Change `<h1 class="counter">6784</h1>` to be `<span class="counter">6784</span>`
+- Change `<h1>Client's Feedback About Me</h1>` to be `<h2>Client's Feedback About Me</h2>`
+- Change `<h4>Harriet Maxwell</h4>` to be `<span>Harriet Maxwell</span>`
+- Change `<h1>Choose Your Plan</h1>` to be `<h2>Choose Your Plan</h2>`
+- Change `<h1>01</h1>` to be `<h3>01</h3>`
+- Change `<h1>$199.00</h1>` to be `<span>$199.00</span>`
+- Change `<h4>About Me</h4>` to be `<span>About Me</span>`
+- Change `<h4>Newsletter</h4>` to be `<span>Newsletter</span>`
+- Change `<h4>Follow Me</h4>` to be `<span>Follow Me</span>`
+
+Fixing wrong `headings` is not an easy task. Headings represent the outline of your content. Like the table of contents in a book, headings should help to understand what is inside your page.
 
 Always ask yourself if that word or sentence would make sense for anybody visiting your website.
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/08-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/08-index.html`
 
-10. Document must have one main landmark mandatory
-Score: 100.00% (Checks completed: 100.00%)
-You can install the Landmarks extension to visually locate the landmarks on your pages.
+### [10. Document must have one main landmark](./fix-a11y/09-index.html)
 
-Taking your code from the previous task, in your fix-a11y/09-index.html file
+You can install the [Landmarks](http://matatk.agrip.org.uk/landmarks/) extension to visually locate the landmarks on your pages.
 
-Locate the header class and convert that <div> into a <header> tag (only change the tag, no need to change or remove other attributes in the tag)
-Convert the <div class='nav'> into a <nav> element (only change the tag, no need to change or remove other attributes in the tag)
-Wrap everything from the <h1>Homepage</h1> to before the <div class="footer"> in a <main> tag.
-Locate the footer class and transform the div to a <footer> (only change the tag, no need to change or remove other attributes in the tag)
-Locate all divs with the section class, and update divs to be <section> (only change the tag, no need to change or remove other attributes in the tag). Except the one with the Projects Completed text. Sections should have headings, we don’t have one anymore.
-If you open the landmarks extension, you should see the landmarks showing.
+Taking your code from the previous task, in your `fix-a11y/09-index.html` file
+
+- Locate the `header` class and convert that `<div>` into a `<header>` tag (only change the tag, no need to change or remove other attributes in the tag)
+- Convert the `<div class='nav'>` into a `<nav>` element (only change the tag, no need to change or remove other attributes in the tag)
+- Wrap everything from the `<h1>Homepage</h1>` to before the `<div class="footer">` in a `<main>` tag.
+- Locate the `footer` class and transform the `div` to a `<footer>` (only change the tag, no need to change or remove other attributes in the tag)
+- Locate all divs with the `section` class, and update divs to be `<section>` (only change the tag, no need to change or remove other attributes in the tag). Except the one with the `Projects Completed` text. Sections should have headings, we don’t have one anymore.
+
+If you open the `landmarks` extension, you should see the landmarks showing.
 
 Tip
 
-Remember that header, section, footer etc contain a default role (=landmarks).
+Remember that `header`, `section`, `footer` etc contain a default role (=landmarks).
 
 All automated issues are now solved! You fixed around 50% of accessibility issues. The rest are manual issues, tested using screen-reading tools or just reading the code.
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/09-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/09-index.html`
 
-11. More than 2 elements become list mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [11. More than 2 elements become list](./fix-a11y/10-index.html)
+
 Automated tools can’t always alert about elements that should exist as a list.
 
-Taking your code from the previous task, in your fix-a11y/10-index.html file
+Taking your code from the previous task, in your `fix-a11y/10-index.html` file
 
-Locate the nav
-Transform the <div> in a <ul> and every <p> in an li
-Locate the div with package-list class
-Transform the children in an ul with the 3 spans being each an li
-Repo:
+- Locate the `nav`
+  - Transform the `<div>` in a `<ul>` and every `<p>` in an `li`
+- Locate the div with `package-list` class
+  - Transform the children in an `ul` with the 3 spans being each an `li`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/10-index.html
+**Repo:**
+
+GitHub repository: `holbertonschool-web_front_end`
+Directory: `0x07-accessibility`
+File: `fix-a11y/10-index.html`
 
 </details>
 
