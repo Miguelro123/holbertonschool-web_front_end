@@ -44,13 +44,19 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 `favicon.jpg`
 
+![Favicon](favicon.jpg "Favicon")
+
 [download favicon.jpg](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/10/2ba3a0d7878316de5aaa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200613T034906Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=a7ba5104c202ed739ae6f56603e0377a233cfec1cd54616a7d4c2d8bdb52cb2a)
 
 `logo-black.png`
 
+![Black](black.png "Black")
+
 [download logo-black.png](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/10/06f32e89f2a82582234e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200613T034906Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=44ab6152187954a07e53198e4104c81dcc7c335a0ef608792929406eced5a6c5)
 
 `logo-white.png`
+
+![White](white.png "White")
 
 [download logo-white.png](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/10/0fa48a04048a2d050cab.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200613T034906Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=7d655f176766f8d076442193178693fb87b5741b0d761ef04be1813568531afe)
 
