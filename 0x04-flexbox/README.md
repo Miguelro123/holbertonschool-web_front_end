@@ -1711,6 +1711,8 @@ Use this `101-index.html` file:
 </html>
 ```
 
+![Box](box.jpg "Box")
+
 **Repo:**
 
 * GitHub repository: `holbertonschool-web_front_end`
