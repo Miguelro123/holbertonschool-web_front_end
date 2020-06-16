@@ -4,22 +4,22 @@
 
 **Read or watch:**
 
-- Accessibility is not a feature. — Ethan Marcotte
-- How to Meet WCAG (Quickref Reference
-- Web Accessibility Guidebook for Developers
-- Testing with assistive technologies - Service Manual - GOV.UK
-- A11Y Style Guide
-- Building Pylon-Free Web Pages: An Intro to Web Accessibility
-- I Threw Away my Mouse - 24 Accessibility
-- I Used a Switch Control for a Day - 24 Accessibility
-- The Myths of Color Contrast Accessibility
-- IAAP Certification
-- Accessibility Blog | Deque Systems
-- Tink - Léonie Watson – On technology, food & life in the digital age
-- Articles » Simply Accessible
-- Accessibility Weekly
-- European label (Web Accessibility): Euracert - Home page
-- Section508.gov | GSA Government-wide IT Accessibility Program
+- [Accessibility is not a feature. — Ethan Marcotte](https://ethanmarcotte.com/wrote/accessibility-is-not-a-feature/)
+- [How to Meet WCAG (Quickref Reference](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0)
+- [Web Accessibility Guidebook for Developers](https://www.telerik.com/blogs/web-accessibility-guidebook-for-developers?fbclid=IwAR3v8sqaMyuAYfa14dZJpDKqJd-v8qKfaKeEvZJRKTcRIOabNnYGPo4rA7U)
+- [Testing with assistive technologies - Service Manual - GOV.UK](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies)
+- [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
+- [Building Pylon-Free Web Pages: An Intro to Web Accessibility](https://engineering.vena.io/2018/10/12/building-pylon-free-web-pages-an-intro-to-web-accessibility/)
+- [I Threw Away my Mouse - 24 Accessibility](https://www.24a11y.com/2018/i-threw-away-my-mouse/)
+- [I Used a Switch Control for a Day - 24 Accessibility](https://www.24a11y.com/2018/i-used-a-switch-control-for-a-day/)
+- [The Myths of Color Contrast Accessibility](https://uxmovement.com/buttons/the-myths-of-color-contrast-accessibility/)
+- [IAAP Certification](https://www.accessibilityassociation.org/certification)
+- [Accessibility Blog | Deque Systems](https://www.deque.com/blog/)
+- [Tink - Léonie Watson – On technology, food & life in the digital age](https://tink.uk/)
+- [Articles » Simply Accessible](http://simplyaccessible.com/articles/)
+- [Accessibility Weekly](https://a11yweekly.com/)
+- [European label (Web Accessibility): Euracert - Home page](http://www.euracert.org/en/)
+- [Section508.gov | GSA Government-wide IT Accessibility Program](https://www.section508.gov/)
 
 ## Learning Objectives
 
@@ -46,139 +46,91 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 <details>
 <summary>Show</summary>
   
-Question #0
+### Question #0
+
 Accessibility level: live video has captions
 
+- [ ] level A
+- [x] level AA
+- [ ] level AAA
 
-level A
+### Question #1
 
-
-level AA
-
-
-level AAA
-
-Question #1
 Accessibility level: provide descriptive link text
 
+- [x] level A
+- [ ] level AA
+- [ ] level AAA
 
-level A
+### Question #2
 
-
-level AA
-
-
-level AAA
-
-Question #2
 Accessibility level: provide ability to skip content
 
+- [x] level A
+- [ ] level AA
+- [ ] level AAA
 
-level A
+### Question #3
 
-
-level AA
-
-
-level AAA
-
-Question #3
 Accessibility level: explain any unusual word
 
+- [ ] level A
+- [ ] level AA
+- [x] level AAA
 
-level A
+### Question #4
 
-
-level AA
-
-
-level AAA
-
-Question #4
 Accessibility level: no major code error
 
+- [x] level A
+- [ ] level AA
+- [ ] level AAA
 
-level A
+### Question #5
 
-
-level AA
-
-
-level AAA
-
-Question #5
 If a person types “paleo recipes” in a site search, which of the following is the best page title?
 
+- [ ] Search
+- [x] Search results for “paleo recipes”
+- [ ] Paleo recipes
 
-Search
+### Question #6
 
-
-Search results for “paleo recipes”
-
-
-Paleo recipes
-
-Question #6
 Identifying the language of an HTML page is important for users of:
 
+- [ ] Voice recognition software
+- [x] Screen readers
+- [ ] Screen magnifiers
+- [ ] All of the above
 
-Voice recognition software
+### Question #7
 
-
-Screen readers
-
-
-Screen magnifiers
-
-
-All of the above
-
-Question #7
 What is the correct language code for Portuguese?
 
 (select all valid answers)
 
+- [ ] lang=“portuguese”
+- [ ] lang=“portugues”
+- [ ] lang=“port”
+- [x] lang=“pt”
+- [x] lang=“pt-br”
 
-lang=“portuguese”
+### Question #8
 
-
-lang=“portugues”
-
-
-lang=“port”
-
-
-lang=“pt”
-
-
-lang=“pt-br”
-
-Question #8
 Where should be the lang attribute
 
+- [ ] In the <!doctype> element
+- [ ] In the <body> element
+- [x] In the html element
 
-In the <!doctype> element
+### Question #9
 
-
-In the <body> element
-
-
-In the html element
-
-Question #9
 All of the following are true about skip links except
 
-
-Must be placed just before the main navigation menu
-
-
-Must become visible upon receiving focus, if hidden
-
-
-Must be accessible to keyboard-only users
-
-
-Must be accessible to screen reader users
+- [x] Must be placed just before the main navigation menu
+- [ ] Must become visible upon receiving focus, if hidden
+- [ ] Must be accessible to keyboard-only users
+- [ ] Must be accessible to screen reader users
 
 </details>
 
@@ -189,8 +141,8 @@ Must be accessible to screen reader users
 <details>
 <summary>View Contents</summary>
 
-0. make the "works" card focus visible mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [0. make the "works" card focus visible](./keyboard/01-styles.css)
+
 Start with this 00-styles.css file:
 
 Click to expand/hide file contents
