@@ -1627,52 +1627,58 @@ in `08-styles.css`, at the end of the `/* Card WORK`
 * Directory: `0x06-responsive_design`
 * File: `08-index.html, 08-styles.css`
 
-### [9. Improve the "Footer" section](./)
+### [9. Improve the "Footer" section](./09-styles.css)
 
-in 09-styles.css, in the /* Footer section
+in `09-styles.css`, in the `/* Footer` section
 
-Create a new media query of max-width: 767px.
-Create the root global selector. We want to override a CSS variable:
-Variable name: footer-padding, Value: 5rem 2rem 1rem
-Target .social.nav inside the footer class and the footer-nav class inside the footer class
-Property: text-align, Value: center
-Target the adjacent lito the li inside the .social.nav and the adjacent li to the li inside .footer-nav (to easily add a left padding starting on the second li)
-Property: padding-left, Value:2rem
-Rendering on screen of max-width: 767px
+- Create a new media query of `max-width: 767px`.
+  - Create the `root` global selector. We want to override a CSS variable:
+    - Variable name: `footer-padding`, Value: `5rem 2rem 1rem`
+  - Target `.social.nav` inside the `footer` class and the `footer-nav` class inside the `footer` class
+    - Property: `text-align`, Value: `center`
+  - Target the adjacent `li`to the `li` inside the `.social.nav` and the adjacent `li` to the `li` inside `.footer-nav` (to easily add a left padding starting on the second `li`)
+    - Property: `padding-left`, Value:`2rem`
+
+**Rendering on screen of max-width: 767px**
 
 ![Rendering10](rendering10.png "Rendering10")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x06-responsive_design
-File: 09-index.html, 09-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x06-responsive_design`
+* File: `09-index.html, 09-styles.css`
 
-10. Fix the top header background mandatory
-Score: 100.00% (Checks completed: 100.00%)
-In 10-index.html, in the body tag, add the class article-page
+### [10. Fix the top header background](./10-styles.css)
 
-In 10-styles.css, in the /* Section HERO section, just before the media query:
+In `10-index.html`, in the `body` tag, add the class `article-page`
 
-Target section-hero class inside article-page class
-Property: margin-top, Value: -8.5rem
-Property: padding-top, Value: 5rem
-Target header class inside article-page class
-Property: background-color, Value: transparent
-Rendering of header and section-hero class elements
+In `10-styles.css`, in the `/* Section HERO` section, just before the media query:
+
+- Target `section-hero` class inside `article-page` class
+  - Property: `margin-top`, Value: `-8.5rem`
+  - Property: `padding-top`, Value: `5rem`
+- Target `header` class inside `article-page` class
+  - Property: `background-color`, Value: `transparent`
+
+**Rendering of header and section-hero class elements**
 
 ![Rendering11](rendering11.png "Rendering11")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x06-responsive_design
-File: 10-index.html, 10-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x06-responsive_design`
+* File: `10-index.html, 10-styles.css`
 
-11. Make the article page responsive #advanced
-Score: 100.00% (Checks completed: 100.00%)
-use the following article.html for this task
+[11. Make the article page responsive #advanced](./100-styles.css)
 
+**use the following `article.html` for this task**
+
+<details>
+<summary>Click to expand/hide file contents</summary>
+  
+```
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -1994,38 +2000,43 @@ use the following article.html for this task
     </footer>
   </body>
 </html>
-in 100-styles.css (from 10-styles.css)
+```
+</details>
 
-inside the /* Post section, before the end of the section:
+**in `100-styles.css`** (from `10-styles.css`)
 
-Target the post class
-Property: margin, Value: 0 2rem
-Create a new media query of max-width: 767px
-Target the post class
-Property: flex-direction, Value: column
-Property: margin, Value: 2rem
-Target the post-content class
-Property: padding-left, Value: 0
-Inside the /* Comment section, before the end of the section:
+inside the `/* Post` section, before the end of the section:
 
-Create a new media query of max-width: 767px
-Target post-comments class
-Property: width, Value: calc(100% - 4rem)
-Property: margin, Value: 2rem
-Property: padding, Value: 0
-Rendering on desktop screen
+- Target the `post` class
+  - Property: `margin`, Value: `0 2rem`
+- Create a new media query of `max-width: 767px`
+  - Target the `post` class
+    - Property: `flex-direction`, Value: `column`
+    - Property: `margin`, Value: `2rem`
+  - Target the `post-content` class
+    - Property: `padding-left`, Value: `0`
+
+Inside the `/* Comment` section, before the end of the section:
+
+- Create a new media query of `max-width: 767px`
+  - Target `post-comments` class
+    - Property: `width`, Value: `calc(100% - 4rem)`
+    - Property: `margin`, Value: `2rem`
+    - Property: `padding`, Value: `0`
+
+**Rendering on desktop screen**
 
 ![Rendering12](rendering12.png "Rendering12")
 
-Rendering on screen of max-width: 767px
+**Rendering on screen of max-width: 767px**
 
 ![Rendering13](rendering13.png "Rendering13")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x06-responsive_design
-File: 100-article.html, 100-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x06-responsive_design`
+* File: `100-article.html, 100-styles.css`
 
 </details>
 
