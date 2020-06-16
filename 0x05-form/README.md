@@ -102,7 +102,7 @@ Why `for="online"` in the `<label>` is important?
 <details>
 <summary>View Contents</summary>
 
-### [0. basic comment structure](.01-styles.css)
+### [0. basic comment structure](./01-styles.css)
 
 To ensure we start on the same foot, use these files:
 
@@ -1036,189 +1036,198 @@ After the `Tag list` styles, create a new comment
 * Directory: `0x05-form`
 * File: `01-article.html, 01-styles.css`
 
-1. more comment basic structure mandatory
-Score: 100.00% (Checks completed: 100.00%)
-From 01-article.html, create 02-article.html
+### [1. more comment basic structure](./02-styles.css)
 
-In the form in the comment section
-Create a first fieldset with a legend that has the text Your personal information and the class visually-hidden
-In the fieldset create a first div with the classes form-group and col-1-2
-Sibling to the first div, create a second div with the classes form-group and col-1-2
-Sibling to the 2 divs create a third div with the classes form-group and col-2-3
-Sibling to the first fieldset, create a second fieldset with a legend that has the text Your comment and the class visually-hidden
-In the second fieldset create a first div with the classes form-group and col-2-3
-Sibling to the first div create a second div with the classes form-group and col-2-3
-Sibling to the 2 divs create a third div with the class form-group
-From 01-styles.css, create 02-styles.css
+**From `01-article.html`, create `02-article.html`**
 
-Target all fieldset and set the following rules
-flex display
-direction of flex is column
-justify the content at flex-start
-no border
-0 0 2rem padding
-Final rendering (same as previously because <legend> tags are hidden by default)
+- In the `form` in the comment section
+  - Create a first `fieldset` with a `legend` that has the text `Your personal information` and the class `visually-hidden`
+    - In the fieldset create a first `div` with the classes `form-group` and `col-1-2`
+    - Sibling to the first div, create a second `div` with the classes `form-group` and `col-1-2`
+    - Sibling to the 2 divs create a third `div` with the classes `form-group` and `col-2-3`
+  - Sibling to the first fieldset, create a second `fieldset` with a `legend` that has the text `Your comment` and the class `visually-hidden`
+    - In the second fieldset create a first `div` with the classes `form-group` and `col-2-3`
+    - Sibling to the first div create a second `div` with the classes `form-group` and `col-2-3`
+    - Sibling to the 2 divs create a third `div` with the class `form-group`
+
+**From `01-styles.css`, create `02-styles.css`**
+
+- Target all `fieldset` and set the following rules
+  - flex display
+  - direction of flex is column
+  - justify the content at `flex-start`
+  - no border
+  - `0 0 2rem` padding
+
+**Final rendering** (same as previously because `<legend>` tags are hidden by default)
 
 ![Leave2](leave2.png "Leave2")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x05-form
-File: 02-article.html, 02-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x05-form`
+* File: `02-article.html, 02-styles.css`
 
-2. create labels and input container mandatory
-Score: 100.00% (Checks completed: 100.00%)
-From 02-article.html, create 03-article.html and in the form which is in the comment section:
+### [2. create labels and input container](./03-styles.css)
 
-In the first fieldset
-In the first div (which has classes form-group and col-1-2)
-Create a label
-For: your-first-name
-Text: First Name
-Sibling to the label, create a <div> with the class form-field
-Create a span inside the div with the class form-field-container
-In the second div (which has classes form-group and col-1-2)
-Create a label
-For: your-last-name
-Text: Last Name
-Sibling to the label, create a <div> with the class form-field
-Create a span inside the div with the class form-field-container
-In the third div (which has classes form-group and col-2-3)
-Create a label
-For: your-email
-Text: Email
-Sibling to the label, create a <div> with the class form-field
-Create a span inside the div with the class form-field-container
-In the second fieldset
-In the first div (which has classes form-group and col-2-3)
-Create a label
-For: your-title
-Text: Title
-Sibling to the label, create a <div> with the class form-field
-Create a span inside the div with the class form-field-container
-In the second div (which has classes form-group and col-2-3)
-Create a label
-For: your-comment
-Text: Comment
-Sibling to the label, create a <div> with the class form-field
-Create a span inside the div with the class form-field-container
-In the third div (which has class form-group)
-Create a <button> with the classes button and button-primary
-Text: Post my comment
-From 02-styles.css, create 03-styles.css:
+**From `02-article.html`, create `03-article.html` and in the form which is in the comment section:**
 
-Target all label
-cursor should be pointer
-display as block element
-don’t wrap white space
-size of font should be 1.4rem
-set padding to 0 0 .5rem
-Final rendering
+- In the first `fieldset`
+  - In the first div (which has classes `form-group` and `col-1-2`)
+    - Create a `label`
+      - For: `your-first-name`
+      - Text: `First Name`
+    - Sibling to the `label`, create a `<div>` with the class `form-field`
+      - Create a `span` inside the div with the class `form-field-container`
+  - In the second div (which has classes `form-group` and `col-1-2`)
+    - Create a `label`
+      - For: `your-last-name`
+      - Text: `Last Name`
+    - Sibling to the `label`, create a `<div>` with the class `form-field`
+      - Create a `span` inside the div with the class `form-field-container`
+  - In the third div (which has classes `form-group` and `col-2-3`)
+    - Create a `label`
+      - For: `your-email`
+      - Text: `Email`
+    - Sibling to the `label`, create a `<div>` with the class `form-field`
+      - Create a `span` inside the div with the class `form-field-container`
+- In the second `fieldset`
+  - In the first div (which has classes `form-group` and `col-2-3`)
+    - Create a `label`
+      - For: `your-title`
+      - Text: `Title`
+    - Sibling to the `label`, create a `<div>` with the class `form-field`
+      - Create a `span` inside the div with the class `form-field-container`
+  - In the second div (which has classes `form-group` and `col-2-3`)
+    - Create a `label`
+      - For: `your-comment`
+      - Text: `Comment`
+    - Sibling to the `label`, create a `<div>` with the class `form-field`
+      - Create a `span` inside the div with the class `form-field-container`
+  - In the third div (which has class `form-group`)
+    - Create a `<button>` with the classes `button` and `button-primary`
+      - Text: `Post my comment`
+
+**From `02-styles.css`, create `03-styles.css`:**
+
+- Target all `label`
+  - cursor should be pointer
+  - display as block element
+  - don’t wrap white space
+  - size of font should be `1.4rem`
+  - set padding to `0 0 .5rem`
+
+**Final rendering**
 
 ![Leave3](leave3.png "Leave3")
 
-Final rendering with button in hover
+**Final rendering with button in hover**
 
 ![Leave4](leave4.png "Leave4")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x05-form
-File: 03-styles.css, 03-article.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x05-form`
+* File: `03-styles.css, 03-article.html`
 
-3. create the inputs mandatory
-Score: 100.00% (Checks completed: 100.00%)
-From 03-article.html, create 04-article.html:
+### [3. create the inputs](./04-styles.css)
 
-In the first fieldset
-In the first span of form-field-container class, create an input
-Type: text
-Name: your-first-name
-Id: your-first-name
-Placeholder: e.g. Mike
-Pattern: [A-Za-zÀ-ž\s]{3,} (we want to allow all characters with and without accents and spaces. We want to have at least 3 characters to make the input valid)
-Max length: 35
-Autocomplete is on
-Access Key: f
-Required: true
-In the second span of form-field-container class, create an input
-Type: text
-Name: your-last-name
-Id: your-last-name
-Placeholder: e.g. Smith
-Pattern: [A-Za-zÀ-ž\s]{3,} (we want to allow all characters with and without accents and spaces. We want to have at least 3 characters to make the input valid)
-Max length: 40
-Autocomplete is on
-Access Key: l
-Required: true
-In the third span of form-field-container class, create an input
-Type: email
-Name: your-email
-Id: your-email
-Placeholder: e.g. youremail@gmail.com
-Pattern: [a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$ (we want to ensure the correct format of the email)
-Max length: 55
-Autocomplete is on
-Access Key: e
-Required: true
-In the second fieldset
-In the first span of form-field-container class, create an input
-Type: text
-Name: your-title
-Id: your-title
-Placeholder: e.g. I loved that article
-Pattern: [A-Za-zÀ-ž\s]{4,} (we want to allow all characters with and without accents and spaces. We want to have at least 4 characters to make the input valid)
-Max length: 75
-Autocomplete is on
-Access Key: t
-Required: true
-In the second span of form-field-container class, create a textarea
-Name: your-comment
-Id: your-comment
-Placeholder: Write your comment here
-Minimum length: 10
-Access Key: c
-Required: true
-Columns: 30
-Rows: 6
-From 03-styles.css, create 04-styles.css, after the label selector:
+**From `03-article.html`, create `04-article.html`:**
 
-Target in one selector all input type text, all input type email, all textarea
-Property: position, Value: relative
-Property: width, Value: 100%
-Property: padding, Value: 1.2rem
-Property: line-height, Value: 1
-Property: border, Value: .1rem solid point to the variable color-black
-Property: background-color, Value: point to the variable color-white
-Property: box-shadow, Value: none
-Property: outline, Value: 0
-Target in one selector all input type text, all input type email
-Property: padding-right, Value: 3rem
-Target in one selector the focus state of all input type text, the focus state of all input type email, the focus state of all textarea
-Property: border, Value: .1rem solid point to the variable color-grey
-Now target the placeholder, it can be tricky so I’m gone give you the code to add to your stylesheet:
+- In the first `fieldset`
+  - In the first span of `form-field-container` class, create an `input`
+    - Type: `text`
+    - Name: `your-first-name`
+    - Id: `your-first-name`
+    - Placeholder: `e.g. Mike`
+    - Pattern: `[A-Za-zÀ-ž\s]{3,}` (we want to allow all characters with and without accents and spaces. We want to have at least 3 characters to make the `input` valid)
+    - Max length: `35`
+    - Autocomplete is on
+    - Access Key: `f`
+    - Required: true
+  - In the second span of `form-field-container` class, create an `input`
+    - Type: `text`
+    - Name: `your-last-name`
+    - Id: `your-last-name`
+    - Placeholder: `e.g. Smith`
+    - Pattern: `[A-Za-zÀ-ž\s]{3,}` (we want to allow all characters with and without accents and spaces. We want to have at least 3 characters to make the `input` valid)
+    - Max length: `40`
+    - Autocomplete is on
+    - Access Key: `l`
+    - Required: true
+  - In the third span of `form-field-container` class, create an `input`
+    - Type: `email`
+    - Name: `your-email`
+    - Id: `your-email`
+    - Placeholder: `e.g. youremail@gmail.com`
+    - Pattern: `[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$` (we want to ensure the correct format of the email)
+    - Max length: `55`
+    - Autocomplete is on
+    - Access Key: `e`
+    - Required: true
+- In the second `fieldset`
+  - In the first `span` of `form-field-container` class, create an `input`
+    - Type: `text`
+    - Name: `your-title`
+    - Id: `your-title`
+    - Placeholder: `e.g. I loved that article`
+    - Pattern: `[A-Za-zÀ-ž\s]{4,}` (we want to allow all characters with and without accents and spaces. We want to have at least 4 characters to make the `input` valid)
+    - Max length: `75`
+    - Autocomplete is on
+    - Access Key: `t`
+    - Required: true
+  - In the second `span` of `orm-field-container` class, create a `textarea`
+    - Name: `your-comment`
+    - Id: `your-comment`
+    - Placeholder: `Write your comment here`
+    - Minimum length: 10
+    - Access Key: `c`
+    - Required: true
+    - Columns: 30
+    - Rows: 6
+
+**From `03-styles.css`, create `04-styles.css`, after the `label` selector:**
+
+- Target in one selector all `input` type `text`, all `input` type `email`, all `textarea`
+  - Property: `position`, Value: `relative`
+  - Property: `width`, Value: `100%`
+  - Property: `padding`, Value: `1.2rem`
+  - Property: `line-height`, Value: `1`
+  - Property: `border`, Value: `.1rem solid` point to the variable `color-black`
+  - Property: `background-color`, Value: point to the variable `color-white`
+  - Property: `box-shadow`, Value: `none`
+  - Property: `outline`, Value: `0`
+- Target in one selector all `input` type `text`, all input type `email`
+  - Property: `padding-right`, Value: `3rem`
+- Target in one selector the focus state of all `input` type `text`, the focus state of all `input` type `email`, the focus state of all `textarea`
+  - Property: `border`, Value: `.1rem solid` point to the variable `color-grey`
+- Now target the `placeholder`, it can be tricky so I’m gone give you the code to add to your stylesheet:
+
+```
 ::placeholder {
   font-style: italic;
   font-size: var(--font-size-small);
 }
-Final rendering
+```
+
+**Final rendering**
 
 ![Leave5](leave5.png "Leave5")
 
-Final rendering when “Last name” field is focus
+**Final rendering when “Last name” field is focus**
 
 ![Leave6](leave6.png "Leave6")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x05-form
-File: 04-article.html, 04-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x05-form`
+* File: `04-article.html, 04-styles.css`
 
-4. add help messages mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [4. add help messages](./05-styles.css)
+
 From 04-article.html, create 05-article.html:
 
 In each span with form-field-container class that contains an input
@@ -1285,14 +1294,14 @@ Final rendering when “Last name” is focused
 
 ![Leave7](leave7.png "Leave7")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x05-form
-File: 05-article.html, 05-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x05-form`
+* File: `05-article.html, 05-styles.css`
 
-5. add pure HTML / CSS error handling mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [5. add pure HTML / CSS error handling](./06-styles.css)
+
 From 05-styles.css, create 06-styles.css:
 
 In the variable section, after the color-dark-grey variable
@@ -1361,14 +1370,14 @@ Final rendering of validation layout
 
 ![Leave8](leave8.png "Leave8")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x05-form
-File: 06-styles.css, 06-article.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x05-form`
+* File: `06-styles.css, 06-article.html`
 
-6. add the search form mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [6. add the search form](./07-styles.css)
+
 From 06-article.html, create 07-article.html:
 
 In the navigation, add a new <li> at the end. Also add the nav-item class on the li.
@@ -1447,11 +1456,11 @@ Final rendering of the search focus with text
 
 ![Text](text.png "Text")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x05-form
-File: 07-article.html, 07-styles.css
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x05-form`
+* File: `07-article.html, 07-styles.css`
 
 </details>
 
