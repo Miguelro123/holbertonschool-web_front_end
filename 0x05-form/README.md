@@ -1026,11 +1026,15 @@ After the `Tag list` styles, create a new comment
   - Property: `padding`, Value: `1rem 0`
   - Property: `margin`, Value: `0`
   
-Repo:
+**Final rendering**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x05-form
-File: 01-article.html, 01-styles.css
+![Leave1](leave1.png "Leave1")
+
+**Repo:**
+
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x05-form`
+* File: `01-article.html, 01-styles.css`
 
 1. more comment basic structure mandatory
 Score: 100.00% (Checks completed: 100.00%)
