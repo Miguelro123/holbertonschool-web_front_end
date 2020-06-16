@@ -1294,48 +1294,49 @@ Or some basics assets from this [archive.zip](https://intranet.hbtn.io/rltoken/6
 <details>
 <summary>View Contents</summary>
 
-0. Fix the hero banner mandatory
-Score: 100.00% (Checks completed: 100.00%)
-Because we did some changes with the article.html page in the previous project, our hero banner background is no more visible. Let’s fix it!
+### [0. Fix the hero banner](./01-styles.css)
+
+Because we did some changes with the `article.html` page in the previous project, our hero banner background is no more visible. Let’s fix it!
 
 But before that, to ensure we start on the same foot, you should use the starter HTML and CSS provided in the project description.
 
-In your 01-styles.css file
+In your `01-styles.css` file
 
-Inside the hero-homepage class selector, update some values:
-Property: background-position, Value: 65% 8rem
-Property: background-size, Value: 90rem auto
-Inside the selector that targets section-inner class inside section-hero class
-Update the min-height to 35vh
-Final rendering of the Hero section should look something like this
+- Inside the `hero-homepage` class selector, update some values:
+  - Property: `background-position`, Value: `65% 8rem`
+  - Property: `background-size`, Value: `90rem auto`
+- Inside the selector that targets `section-inner` class inside `section-hero` class
+  - Update the `min-height` to `35vh`
 
+**Final rendering of the Hero section should look something like this**
 
+![Hero](herosection.png "Hero")
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x06-responsive_design
-File: 01-styles.css, 01-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x06-responsive_design`
+* File: `01-styles.css, 01-index.html`
 
-1. Make the container flexible mandatory
-Score: 100.00% (Checks completed: 100.00%)
-Using the previous file as the base, in your 02-styles.css file update the .container selector by changing width to max-width
+### [1. Make the container flexible](./02-styles.css)
+
+Using the previous file as the base, in your `02-styles.css` file update the `.container` selector by changing `width` to `max-width`
 
 If you resize your browser, you should see that the content is resizing.
 
-Wide screen:
+**Wide screen:**
 
+![Wide](widescreen.png "Wide")
 
+**Narrow screen:**
 
-Narrow screen:
+![Narrow](narrowscreen.png "Narrow")
 
+**Repo:**
 
-
-Repo:
-
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x06-responsive_design
-File: 02-styles.css, 02-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x06-responsive_design`
+* File: `02-styles.css, 02-index.html`
 
 2. Fix layout issues mandatory
 Score: 100.00% (Checks completed: 100.00%)
