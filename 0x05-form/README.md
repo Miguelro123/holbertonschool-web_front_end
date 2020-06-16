@@ -1059,7 +1059,7 @@ no border
 0 0 2rem padding
 Final rendering (same as previously because <legend> tags are hidden by default)
 
-
+![Leave2](leave2.png "Leave2")
 
 Repo:
 
@@ -1116,11 +1116,11 @@ size of font should be 1.4rem
 set padding to 0 0 .5rem
 Final rendering
 
-
+![Leave3](leave3.png "Leave3")
 
 Final rendering with button in hover
 
-
+![Leave4](leave4.png "Leave4")
 
 Repo:
 
@@ -1205,11 +1205,11 @@ Now target the placeholder, it can be tricky so I’m gone give you the code to 
 }
 Final rendering
 
-
+![Leave5](leave5.png "Leave5")
 
 Final rendering when “Last name” field is focus
 
-
+![Leave6](leave6.png "Leave6")
 
 Repo:
 
@@ -1283,7 +1283,7 @@ Property: max-height, Value: 20rem
 Property: margin, Value: .4rem 0 0
 Final rendering when “Last name” is focused
 
-
+![Leave7](leave7.png "Leave7")
 
 Repo:
 
@@ -1359,7 +1359,7 @@ Property: color, Value: point to the variable color-primary
 Property: background, Value: point to the variable color-white
 Final rendering of validation layout
 
-
+![Leave8](leave8.png "Leave8")
 
 Repo:
 
@@ -1437,15 +1437,15 @@ Property: cursor, Value: text
 Property: margin, Value: 0 1rem
 Final rendering of the search button
 
-
+![Butoon](button.png "Butoon")
 
 Final rendering of the search focus
 
-
+![Focus](focus.png "Focus")
 
 Final rendering of the search focus with text
 
-
+![Text](text.png "Text")
 
 Repo:
 
