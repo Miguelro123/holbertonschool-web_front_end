@@ -913,6 +913,8 @@ Copy the content of `32-styleguide.html` into `33-styleguide.html`
     - in the `section` create a `header`, in the `header` add a level 2 heading with the text `Table`
     - after the `header`, create a `table`, reproduce in HTML the visual below
 
+![Star](starwars.jpg "Star")
+
 The `<th>` tags containing `Title, Director, Release Date` should have a `scope` attribute set to `col` The `<th>` tags containing the names of the movies should have a `scope` attribute set to `row`
 
 **Due to previous task, does not have to pass W3C**
@@ -949,6 +951,8 @@ Copy the content of `33-styleguide.html` into `34-styleguide.html`
 * File: `34-styleguide.html`
 
 ### [35. Replace text logo with image logo](./35-index.html)
+
+![Logo](logo-black.png "Logo")
 
 Using `31-index.html`
 
