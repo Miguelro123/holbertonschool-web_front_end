@@ -1338,62 +1338,62 @@ If you resize your browser, you should see that the content is resizing.
 * Directory: `0x06-responsive_design`
 * File: `02-styles.css, 02-index.html`
 
-2. Fix layout issues mandatory
-Score: 100.00% (Checks completed: 100.00%)
-Whatever the browser you use, it’s a good idea from now on, to toggle the device view.
+### [2. Fix layout issues](./02-1-styles.css)
+
+Whatever the browser you use, it’s a good idea from now on, to [toggle the device view](https://developers.google.com/web/tools/chrome-devtools/device-mode).
 
 In a normal situation, you should start with “mobile first” in mind and write your CSS first for the mobile. But because we already have a desktop version, we will exceptionally add some media-queries for mobile and tablet.
 
-For extra large devices (no media queries)
-For desktop / large devices (max-width: 992px)
-For tablet / medium styles (max-width: 767px)
-For mobile styles (max-width: 480px)
-We will put media queries at the end of each section to facilitate the reading but for performance reasons, the best practice is to unifiy all similar breakpoints at the end of the CSS file.
+- For extra large devices (no media queries)
+- For desktop / large devices (`max-width: 992px`)
+- For tablet / medium styles (`max-width: 767px`)
+- For mobile styles (`max-width: 480px`)
 
-In your 02-1-styles.css file:
+**We will put media queries at the end of each section to facilitate the reading but for performance reasons, the best practice is to unifiy all similar breakpoints at the end of the CSS file.**
 
-inside the /* Helpers section target all images inside the main section
+**In your `02-1-styles.css` file:**
 
-Property: width, Value: 100%
-Property: height, Value: auto
-inside the /* Section Latest news section, add a new media query (max-width: 767px)
+- inside the `/* Helpers` section target all images inside the main section
+  - Property: `width`, Value: `100%`
+  - Property: `height`, Value: `auto`
+- inside the `/* Section Latest news` section, add a new media query (`max-width: 767px`)
+  - Target the `row` inside `section-latest-news`
+    - Property: `flex-direction`, Value: `column`
+- inside the `/* Grid` section, at the end, add a new media query (`max-width: 767px`)
+  - First, redefine the variable `section-padding` and give that value: `5rem 1.5rem`. And redefine the variable `section-body-padding` with `2rem 0 0`
+  - Target the `ul.row` and the `row` class
+    - Property: `flex-direction`, Value: `column`
+    - Property: `margin`, Value: `0`
+  - Target all the classes that started with `col-`
+    - Property: `margin`, Value: `0 0 3rem 0`
+  - Target the `col-1-3` and `col-1-2` classes
+    - Property: `width`, Value: `100%`
 
-Target the row inside section-latest-news
-Property: flex-direction, Value: column
-inside the /* Grid section, at the end, add a new media query (max-width: 767px)
+The `navbar` is not allowing the website to fit the window. We will temporarily hide it and create a mobile navbar later.
 
-First, redefine the variable section-padding and give that value: 5rem 1.5rem. And redefine the variable section-body-padding with 2rem 0 0
-Target the ul.row and the row class
-Property: flex-direction, Value: column
-Property: margin, Value: 0
-Target all the classes that started with col-
-Property: margin, Value: 0 0 3rem 0
-Target the col-1-3 and col-1-2 classes
-Property: width, Value: 100%
-The navbar is not allowing the website to fit the window. We will temporarily hide it and create a mobile navbar later.
+- inside the `/* Navbar` section, at the end, add a new media query (`max-width: 767px`)
+  - Target the `navbar-menu` class
+    - Property: `display`, Value: `none`
 
-inside the /* Navbar section, at the end, add a new media query (max-width: 767px)
-Target the navbar-menu class
-Property: display, Value: none
 You should now be able to easily view the website on a device of any screen/window size. I guess you are surprised that was so easy?!
 
-Rendering on wide screen
+**Rendering on wide screen**
 
+![Rendering1](rendering1.png "Rendering1")
 
+**Rendering on screen with max-width: 767px**
 
-Rendering on screen with max-width: 767px
+![Rendering2](rendering2.png "Rendering2")
 
+**Rendering on screen with max-width: 767px, you can see the navbar is hidden**
 
+![Rendering3](rendering3.png "Rendering3")
 
-Rendering on screen with max-width: 767px, you can see the navbar is hidden
+**Repo:**
 
-
-
-Repo:
-
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x06-responsive_design
-File: 02-1-styles.css, 02-1-index.html
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x06-responsive_design`
+* File: `02-1-styles.css, 02-1-index.html`
 
 3. Generate images with responsive breakpoints mandatory
 Score: 100.00% (Checks completed: 100.00%)
