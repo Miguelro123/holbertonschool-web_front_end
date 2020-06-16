@@ -189,7 +189,9 @@ Copy the content of `0-index.html` into `1-index.html`
 
 ### [2. The head - meta charset, viewport, title, description, favicons](./2-index.html)
 
-Cpy the content of `1-index.html` into `2-index.html`
+Copy the content of `1-index.html` into `2-index.html`
+
+![Favicon](favicon.png "Favicon")
 
 **Meta charset:**
 
