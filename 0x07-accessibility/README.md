@@ -2044,37 +2044,43 @@ Using the `00-index.html` provided in the previous task, in your `skip-links/01-
 </html>
 ```
 </details>
-The name of the ID can be anything but prefixing with a11y can help us to remember why we are using an ID. (I recommend reading this article about CSS namespacing by Harry Roberts)
 
-Using the stylesheet from the previous task, in your skip-links/01-styles.css file, in the /* Helpers section, after the visually-hidden selector
+The name of the ID can be anything but prefixing with a11y can help us to remember why we are using an ID. (I recommend reading [this article](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) about CSS namespacing by Harry Roberts)
 
-Target the off-screen class
-Property: left, Value: -100vw
-Property: position, Value: absolute
-Target the skip-link class
-Property: background, Value: link to the color-black variable
-Property: color, Value: link to the color-white variable
-Property: left, Value: 0
-Property: padding, Value: .7rem
-Property: position, Value: fixed
-Property: opacity, Value: 0
-Property: top, Value: 0
-Property: z-index, Value: 10
-Property: transform, Value: translateY(-1rem)
-Property: transition, Value: transform .2s ease-in-out, opacity .2s ease-in-out
-Target the focus state of skip-link class
-Property: opacity, Value: 1
-Property: transform, Value: translateY(0)
-Repo:
+Using the stylesheet from the previous task, in your `skip-links/01-styles.css` file, in the `/* Helpers` section, after the `visually-hidden` selector
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: skip-links/01-index.html, skip-links/01-article.html, skip-links/01-styles.css
+- Target the `off-screen` class
+  - Property: `left`, Value: `-100vw`
+  - Property: `position`, Value: `absolute`
+- Target the `skip-link` class
+  - Property: `background`, Value: link to the `color-black` variable
+  - Property: `color`, Value: link to the `color-white` variable
+  - Property: `left`, Value: `0`
+  - Property: `padding`, Value: `.7rem`
+  - Property: `position`, Value: `fixed`
+  - Property: `opacity`, Value: `0`
+  - Property: `top`, Value: `0`
+  - Property: `z-index`, Value: `10`
+  - Property: `transform`, Value: `translateY(-1rem)`
+  - Property: `transition`, Value: `transform .2s ease-in-out, opacity .2s ease-in-out`
+- Target the `focus` state of `skip-link` class
+  - Property: `opacity`, Value: `1`
+  - Property: `transform`, Value: `translateY(0)`
 
-2. Elements must have sufficient color contrast mandatory
-Score: 100.00% (Checks completed: 100.00%)
-You are given this fix-a11y/00-index.html starter file:
+**Repo:**
 
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `skip-links/01-index.html, skip-links/01-article.html, skip-links/01-styles.css`
+
+### [2. Elements must have sufficient color contrast](./fix-a11y/01-index.html)
+
+You are given this `fix-a11y/00-index.html` starter file:
+
+<details>
+<summary>Click to expand/hide file contents</summary>
+
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -2254,24 +2260,25 @@ You are given this fix-a11y/00-index.html starter file:
     </div>
   </body>
 </html>
+```
+</details>
 
-
-As you can see, the contrast is not good. The easy fix is simply to remove the body styles in the embed <style>. Do this in your fix-a11y/01-index.html file. In a real case, you could use the Contrast Ratio section of the Color Picker.
+As you can see, the contrast is not good. The easy fix is simply to remove the `body` styles in the embed `<style>`. Do this in your `fix-a11y/01-index.html` file. In a real case, you could use the [Contrast Ratio](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference) section of the Color Picker.
 
 Check with Axe to ensure the issue is fixed.
 
-Rendering the page should display something like this
+**Rendering the page should display something like this**
 
+![Display](display.png "Display")
 
+**Repo:**
 
-Repo:
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x07-accessibility`
+* File: `fix-a11y/01-index.html`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x07-accessibility
-File: fix-a11y/01-index.html
+### [3. Documents must have <title> element to aid in navigation](./fix-a11y/02-index.html)
 
-3. Documents must have <title> element to aid in navigation mandatory
-Score: 100.00% (Checks completed: 100.00%)
 Taking your code from the previous task, in your fix-a11y/02-index.html file
 
 Add a title: Homepage - A fake website
