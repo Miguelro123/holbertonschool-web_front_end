@@ -375,9 +375,7 @@ From this HTML:
 
 Build this responsive web page:
 
-![Box](box.jpg "Box")
-
-![Box](box.jpg "Box")
+![Chemical](chemical.png "Chemical")
 
 **Requirements:**
 
@@ -523,11 +521,9 @@ From this HTML:
 
 Build this responsive web page:
 
+![Cards1](cards1.png "Cards1")
 
-
-
-
-
+![Cards2](cards2.png "Cards2")
 
 **Requirements:**
 
@@ -643,13 +639,11 @@ From this HTML:
 
 Build this responsive web page:
 
+![Bob1](bob1.png "Bob1")
 
+![Bob2](bob2.png "Bob2")
 
-
-
-
-
-
+![Bob3](bob3.png "Bob2")
 
 **Requirements:**
 
@@ -744,7 +738,7 @@ Build this responsive web page:
 * Directory: `0x0A-Bootstrap`
 * File: `5-index.html`
 
-### [6. Overwrite CSS](./)
+### [6. Overwrite CSS](./6-styles.css)
 With this HTML: (one Bootstrap template example)
 
 ```
@@ -870,11 +864,9 @@ With this HTML: (one Bootstrap template example)
 
 Create the custom stylesheet `6-styles.css` to match this layout.
 
+![Over1](overwrite1.png "Over1")
 
-
-
-
-
+![Over2](overwrite2.png "Over2")
 
 **Requirements:**
 
