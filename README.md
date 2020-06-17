@@ -16,8 +16,8 @@ Number | Projects | Date and time
 0x05 | [Forms](./0x05-form) | 07/05/2020, 6 days
 0x06 | [Responsive design](./0x06-responsive_design) | 12/05/2020, 8 days
 0x07 | [Accessibility](./0x07-accessibility) | 19/05/2020, 4 days
-0x08 | [Designer language - research](./0x08-Designer_language-research) | 25/05/2020, 19 days
-0x08 | [Designer language - prototype](./0x08-Designer_language-prototype) | 08/06/2020, 15 days
+0x08 | Designer language - research | 25/05/2020, 19 days
+0x08 | Designer language - prototype | 08/06/2020, 15 days
 0x09 | [Implement a design from scratch](./holberton-headphones) | 27/05/2020, 9 days
 0x0A | [Bootstrap](./0x0A-Bootstrap) | 05/06/2020, 9 days
 0x0B | [Implement a design with bootstrap](./holberton-smiling-school) | 10/06/2020, 9 days
