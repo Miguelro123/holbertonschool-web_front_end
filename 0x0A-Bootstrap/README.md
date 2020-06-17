@@ -696,10 +696,6 @@ From this HTML:
 </html>
 ```
 
-Build this responsive web page:
-
-
-
 **Requirements:**
 
 - You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
