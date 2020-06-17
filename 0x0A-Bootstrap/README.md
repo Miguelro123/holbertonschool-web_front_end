@@ -43,9 +43,10 @@ Add this `<link>` in the `<head>` part of your HTML
 <details>
 <summary>View Contents</summary>
 
-0. Reboot styling mandatory
+### [0. Reboot styling](./0-index.html)
 From this HTML:
 
+```
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
@@ -82,21 +83,24 @@ From this HTML:
 
     </body>
 </html>
+```
+
 Add Bootstrap to reset the CSS styling.
 
 Your final page must look like this:
 
+![Border](border.jpg "Border")
 
+**Repo:**
 
-Repo:
+* GitHub repository: `holbertonschool-web_front_end`
+* Directory: `0x0A-Bootstrap`
+* File: `0-index.html`
 
-GitHub repository: holbertonschool-web_front_end
-Directory: 0x0A-Bootstrap
-File: 0-index.html
-
-1. Blocks mandatory
+### [1. Blocks](./1-index.html)
 From this HTML:
 
+```
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
@@ -157,9 +161,11 @@ From this HTML:
         </div>
     </body>
 </html>
+```
+
 Build this responsive web page:
 
-
+![Index](1-index.gif "Index")
 
 Requirements:
 
